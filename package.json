@@ -1,0 +1,24 @@
+{
+  "name": "shop-gatterer-react",
+  "version": "1.0.0",
+  "description": "Simple React App website with REST-API and a DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasGatterer/Shop-Gatterer-React.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasGatterer/Shop-Gatterer-React.js/issues"
+  },
+  "homepage": "https://github.com/JonasGatterer/Shop-Gatterer-React.js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  }
+}
