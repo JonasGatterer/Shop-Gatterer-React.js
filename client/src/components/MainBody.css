@@ -1,0 +1,87 @@
+.jumbotron{
+    background-color: lightgrey;
+    border-radius: 6px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card{
+    margin:1vh;
+    border-width: 6px;
+    box-sizing: border-box;
+}
+
+.card-img{
+    margin-bottom: 1.5vh;
+}
+
+#serviceContainer{
+    background-color: white;
+    margin-top: 5vh;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 3vh;
+    
+}
+
+#depotContainer{
+    background-color: white;
+    padding-top: 3vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 10vh;
+}
+
+#jumbotronContainer{
+    padding-top: 1vh;
+}
+
+#jumbotronText{
+    background-color: white;
+    border-style: solid;
+}
+
+#serviceContainter{
+    padding: 5vh; 
+    background-color: rgb(235, 235, 235);
+}
+
+#serviceImg{
+    height: 80%;
+    width: 90%;
+    margin-left: 2.5vw;
+    margin-top: 4vh;
+}
+
+#serviceText{
+    padding: 5vh;
+}
+
+#horizontalLineService{
+    width: 4vw;
+    height: 1vh;
+    border: solid rgb(0, 0, 0);
+    border-width: 6px;
+}
+
+#horizontalLine{
+    background-color: white;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+#imgContainer{
+    padding-top: 5vh;
+}
+
+#imgSkidepot1{
+    width: 80%;
+}
+
+#imgSkidepot2{
+    width: 80%;
+    height: 89%;
+}

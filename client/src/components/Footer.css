@@ -1,0 +1,49 @@
+#kontakte{
+    padding: 5vh;
+}
+
+#leftContainer{
+    padding-left: 5vw;
+    padding-top: 5vh;
+}
+
+#icons{
+    padding-top: 1vh;
+}
+
+#fbIcon, #instaIcon, #gitIcon{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 3px;
+}
+
+#fbIcon:hover, #instaIcon:hover, #gitIcon:hover{
+    border-color: blue;
+}
+
+#fbSpan, #instaSpan, #gitSpan{
+    padding: 2px;
+}
+
+#rightContainer{
+    padding-left: 5vw;
+    padding-top: 5vh;
+}
+
+#tel, #email{
+    color: black;
+    text-decoration: none;
+}
+
+#tel:hover, #email:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Media Querie?
+@media (max-width: 992px){}
+@media (max-width: 768px){}
+@media (max-width: 576px){}
+*/
+

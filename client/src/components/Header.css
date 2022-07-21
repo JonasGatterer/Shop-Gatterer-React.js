@@ -1,0 +1,17 @@
+.navbar{
+    padding: 1vh;
+}
+.navbar-nav li {
+    padding-right: 6vh;
+    
+}
+.navbar-nav li:hover {
+    text-decoration: underline;  
+}
+.nav-link {
+    font-size: 3.2vh;
+}
+
+#logo {
+    height: 2.5em;
+}
