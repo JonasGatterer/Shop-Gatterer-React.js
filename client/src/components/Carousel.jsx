@@ -1,11 +1,14 @@
 import React from "react";
-import Test1 from "./../images/test1.jpg"
-import Test2 from "./../images/test2.jpg"
-import Test3 from "./../images/test3.jpg"
+import Test1 from "./../images/carousel1.jpg"
+import Test2 from "./../images/carousel2.jpg"
+import Test3 from "./../images/carousel3.jpg"
 import './Carousel.css'
 
 const Carousel = () => {
     return(
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div id="Home"></div>
+        {/*
         <div id="slides" class="carousel slide" data-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -31,6 +34,21 @@ const Carousel = () => {
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>*/}
+        
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src={Test1} class="d-block w-100" alt="..."/>
+                    <div class="carousel-overlayText rounded-pill">10% Familienrabatt auf Ausleihe</div>
+                    <div class="carousel-overlayText-second">Direkt an der Talstation Jochtal</div>
+                </div>
+                <div class="carousel-item">
+                    <img src={Test2} class="d-block w-100" alt="..."/>
+                </div>
+                <div class="carousel-item">
+                    <img src={Test3} class="d-block w-100" alt="..."/>
+                </div>
+            </div>
         </div>
     )
 }

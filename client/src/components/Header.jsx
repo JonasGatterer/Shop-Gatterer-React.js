@@ -8,7 +8,7 @@ import Logo from "./../images/logo.jpg"
 
 const Header = () => {
     return(
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top"> 
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"><img id="logo" src={Logo} alt="Logo"/></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@ const Header = () => {
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/">Home</a>
+                            <a class="nav-link" href="/#Home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/#Shop">Shop</a>

@@ -48,7 +48,8 @@ html, body{
 }
 
 body{
-    background-image: url("../images/bg_skiing.jpg");
+    background: transparent;
+    /*background-image: url("../images/bg_skiing.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
