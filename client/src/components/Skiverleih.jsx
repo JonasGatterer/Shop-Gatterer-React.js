@@ -19,11 +19,14 @@ import "./Skiverleih.css"
 //import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import Test1 from './../images/test1.jpg'
 import Test2 from './../images/test2.jpg'
+import {useTranslation} from "react-i18next"
 
 const Skiverleih = () => {
     /*
     const [open, setOpen] = React.useState(true);
     const [open2, setOpen2] = React.useState(true);*/
+
+    const {t, i18n} = useTranslation();
 
     useEffect(() => {
         Aos.init({duration: 1000});
@@ -45,9 +48,9 @@ const Skiverleih = () => {
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 verleih-firstText">
                         <h2>Ski- & Snowboard-Verleih</h2>
-                        <p>Wenn Sie eine Skireise planen und eine hochwertige Ausrüstung benötigen, um das Beste aus Ihrem Erlebnis zu machen, sind Sie bei unserem Skiverleih an der richtigen Adresse! Wir bieten eine große Auswahl an Skiern, Skischuhen und anderer Ausrüstung für alle Könnerstufen, vom Anfänger bis zum Experten. 
+                        <p>{t("skiverleih.firstSec1")}{/*Wenn Sie eine Skireise planen und eine hochwertige Ausrüstung benötigen, um das Beste aus Ihrem Erlebnis zu machen, sind Sie bei unserem Skiverleih an der richtigen Adresse! Wir bieten eine große Auswahl an Skiern, Skischuhen und anderer Ausrüstung für alle Könnerstufen, vom Anfänger bis zum Experten.*/} 
                             <br/><br/>
-                            Unsere sachkundigen und freundlichen Mitarbeiter helfen Ihnen, die perfekte Ausrüstung für Ihre Bedürfnisse und Vorlieben zu finden, damit Sie eine sichere und angenehme Zeit auf den Pisten verbringen können.</p>
+                            {t("skiverleih.firstSec2")}{/*Unsere sachkundigen und freundlichen Mitarbeiter helfen Ihnen, die perfekte Ausrüstung für Ihre Bedürfnisse und Vorlieben zu finden, damit Sie eine sichere und angenehme Zeit auf den Pisten verbringen können.*/}</p>
                         {/*Wenn Sie eine Skireise planen und eine hochwertige Ausrüstung benötigen, um das Beste aus Ihrem Erlebnis zu machen, sind Sie bei unserem Skiverleih an der richtigen Adresse! Wir bieten eine große Auswahl an Skiern, Skischuhen und anderer Ausrüstung für alle Könnerstufen, vom Anfänger bis zum Experten. Unsere sachkundigen und freundlichen Mitarbeiter helfen Ihnen, die perfekte Ausrüstung für Ihre Bedürfnisse und Vorlieben zu finden, damit Sie eine sichere und angenehme Zeit auf den Pisten verbringen können. Außerdem ist unser Verleihverfahren einfach und problemlos, so dass Sie mehr Zeit mit dem Skifahren verbringen können und sich weniger Gedanken über die Logistik machen müssen. Buchen Sie noch heute bei uns und machen Sie sich bereit, die Pisten mit Zuversicht zu befahren!*/}
                     </div>
                 </div>
@@ -57,11 +60,11 @@ const Skiverleih = () => {
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 verleih-secondText">
                         <h2>1A Equipment in Vals</h2>
-                        <p>Wir bieten eine große Auswahl an Skiern und Schuhen von einigen der renommiertesten Marken in der Branche. Unser Ziel ist es, unsere Kunden mit hochwertiger Ausrüstung zu versorgen, damit sie die Pisten in vollen Zügen genießen können.
+                        <p>{t("skiverleih.secondSec1")}{/*Wir bieten eine große Auswahl an Skiern und Schuhen von einigen der renommiertesten Marken in der Branche. Unser Ziel ist es, unsere Kunden mit hochwertiger Ausrüstung zu versorgen, damit sie die Pisten in vollen Zügen genießen können.*/}
                             <br/><br/>
-                            Wir bieten eine Reihe von Skiern der beiden Marken Elan und Völkl an. Beide Marken können auf eine lange Tradition in der Herstellung von qualitativ hochwertigen Skiern zurückblicken, die für eine Vielzahl von Bedingungen ausgelegt sind.
+                            {t("skiverleih.secondSec2")}{/*Wir bieten eine Reihe von Skiern der beiden Marken Elan und Völkl an. Beide Marken können auf eine lange Tradition in der Herstellung von qualitativ hochwertigen Skiern zurückblicken, die für eine Vielzahl von Bedingungen ausgelegt sind.*/}
                             <br/><br/>
-                            Zusätzlich zu unserer Auswahl an Skiern bieten wir auch eine Reihe von Schuhen von Dalbello und Fischer an.</p>
+                            {t("skiverleih.secondSec3")}{/*Zusätzlich zu unserer Auswahl an Skiern bieten wir auch eine Reihe von Schuhen von Dalbello und Fischer an.*/}</p>
                     </div>
                 </div>
             </div>

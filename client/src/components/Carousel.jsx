@@ -3,8 +3,12 @@ import Test1 from "./../images/carousel1.jpg"
 import Test2 from "./../images/carousel2.jpg"
 import Test3 from "./../images/carousel3.jpg"
 import './Carousel.css'
+import {useTranslation} from "react-i18next"
 
 const Carousel = () => {
+
+    const {t, i18n} = useTranslation();
+
     return(
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div id="Home"></div>
@@ -39,8 +43,8 @@ const Carousel = () => {
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src={Test1} class="d-block w-100" alt="..."/>
-                    <div class="carousel-overlayText rounded-pill">10% Familienrabatt auf Ausleihe</div>
-                    <div class="carousel-overlayText-second">Direkt an der Talstation Jochtal</div>
+                    <div class="carousel-overlayText rounded-pill">{t("carousel.main")}</div>
+                    <div class="carousel-overlayText-second">{t("carousel.second")}</div>
                 </div>
                 <div class="carousel-item">
                     <img src={Test2} class="d-block w-100" alt="..."/>

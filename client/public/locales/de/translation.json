@@ -1,0 +1,25 @@
+{
+    "header":{
+        "header1": "Home",
+        "header2": "Shop",
+        "header3": "Skiservice",
+        "header4": "Skidepot",
+        "header5": "Kontakt"
+    },
+    "carousel":{
+        "main": "10% Familienrabatt auf Ausleihe",
+        "second": "Direkt an der Talstation Jochtal"
+    },
+    "mainbody": {
+        "card1": "Wir bieten eine große Auswahl an hochwertiger Skiausrüstung zum Verleih und Verkauf. In unserem Verleih können Sie alles von Skiern über Snowboards bis hin zu Langlaufskiern in verschiedenen Größen und Stilen für jede Könnerstufe mieten.",
+        "card2": "Möchten Sie die Natur auf zwei Rädern erkunden? Unser E-Bike-Verleih ist die perfekte Möglichkeit dazu. Wir haben eine Reihe von Elektrofahrrädern im Angebot, die alle mit der neuesten Technologie ausgestattet und auf maximalen Komfort und Leistung ausgelegt sind.",
+        "card3": "Neben unserem Ski- und E-Bike-Verleih haben wir auch einen Geschenkeladen, in dem Sie das perfekte Souvenir oder Geschenk für Ihre Liebsten finden können. Wir bieten eine breite Palette einzigartiger, handgefertigter und regionaler Artikel an."
+    },
+    "skiverleih": {
+        "firstSec1": "Wenn Sie eine Skireise planen und eine hochwertige Ausrüstung benötigen, um das Beste aus Ihrem Erlebnis zu machen, sind Sie bei unserem Skiverleih an der richtigen Adresse! Wir bieten eine große Auswahl an Skiern, Skischuhen und anderer Ausrüstung für alle Könnerstufen, vom Anfänger bis zum Experten.",
+        "firstSec2": "Unsere sachkundigen und freundlichen Mitarbeiter helfen Ihnen, die perfekte Ausrüstung für Ihre Bedürfnisse und Vorlieben zu finden, damit Sie eine sichere und angenehme Zeit auf den Pisten verbringen können.",
+        "secondSec1": "Wir bieten eine große Auswahl an Skiern und Schuhen von einigen der renommiertesten Marken in der Branche. Unser Ziel ist es, unsere Kunden mit hochwertiger Ausrüstung zu versorgen, damit sie die Pisten in vollen Zügen genießen können.",
+        "secondSec2": "Wir bieten eine Reihe von Skiern der beiden Marken Elan und Völkl an. Beide Marken können auf eine lange Tradition in der Herstellung von qualitativ hochwertigen Skiern zurückblicken, die für eine Vielzahl von Bedingungen ausgelegt sind.",
+        "secondSec3": "Zusätzlich zu unserer Auswahl an Skiern bieten wir auch eine Reihe von Schuhen von Dalbello und Fischer an."
+    }
+}

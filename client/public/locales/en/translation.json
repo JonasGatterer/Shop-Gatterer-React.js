@@ -1,0 +1,25 @@
+{
+    "header":{
+        "header1": "Home",
+        "header2": "Shop",
+        "header3": "Ski service",
+        "header4": "Ski depot",
+        "header5": "Contact"
+    },
+    "carousel":{
+        "main": "10% family discount on ski equipment",
+        "second": "Directly at the Jochtal valley station"
+    },
+    "mainbody": {
+        "card1": "We offer a wide range of quality ski equipment for rent and sale. In our rental shop you can rent everything from skis to snowboards to cross-country skis in different sizes and styles for every skill level.",
+        "card2": "Would you like to explore nature on two wheels? Our e-bike rental is the perfect way to do so. We have a range of electric bikes on offer, all equipped with the latest technology and designed for maximum comfort and performance.",
+        "card3": "In addition to our ski and e-bike rental, we also have a gift store where you can find the perfect souvenir or gift for your loved ones. We offer a wide range of unique, handmade and regional items."
+    },
+    "skiverleih": {
+        "firstSec1": "If you're planning a ski trip and need quality equipment to make the most of your experience, our ski rental is the place to go! We offer a wide range of skis, ski boots and other equipment for all skill levels, from beginner to expert.",
+        "firstSec2": "Our knowledgeable and friendly staff will help you find the perfect equipment for your needs and preferences so you can have a safe and enjoyable time on the slopes.",
+        "secondSec1": "We offer a wide range of skis and boots from some of the most renowned brands in the industry. Our goal is to provide our customers with quality equipment so they can enjoy the slopes to the fullest.",
+        "secondSec2": "We offer a range of skis from the two brands Elan and Völkl. Both brands have a long tradition of producing high quality skis designed for a wide range of conditions.",
+        "secondSec3": "In addition to our selection of skis, we also offer a range of boots from Dalbello and Fischer."
+    }
+}
