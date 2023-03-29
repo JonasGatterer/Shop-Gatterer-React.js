@@ -102,12 +102,12 @@ const EBikes = () => {
                                                 </div>
                                                 <p class="about">
                                                     {/*<br/><p class="bg-warning">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
-                                                    <br/>*/}<br/><b>Name:</b> {bikes.ebike_name}
-                                                    <br/><b>Motor:</b> {bikes.ebike_engine}
-                                                    <br/><b>Akku:</b> {bikes.ebike_battery}
-                                                    <br/><b>Bremsen:</b> {bikes.ebike_brake}
-                                                    <br/><b>Getriebe:</b> {bikes.ebike_gear}
-                                                    <br/><b>Dämpfer:</b> {bikes.ebike_fork} {bikes.ebike_damper}
+                                                    <br/>*/}<br/><b>Name:</b> {bikes.eBike_name}
+                                                    <br/><b>Motor:</b> {bikes.eBike_engine}
+                                                    <br/><b>Akku:</b> {bikes.eBike_battery}
+                                                    <br/><b>Bremsen:</b> {bikes.eBike_brake}
+                                                    <br/><b>Getriebe:</b> {bikes.eBike_gear}
+                                                    <br/><b>Dämpfer:</b> {bikes.eBike_fork} {bikes.eBike_damper}
                                                 </p>
                                                 <div class="cart mt-4 align-items-center"> <button class="btn btn-danger text-uppercase mr-2 px-4">Keine online Reservierung möglich</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
                                                 <br/>

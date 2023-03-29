@@ -6,16 +6,46 @@
         "header4": "Deposito sci",
         "header5": "Contatto"
     },
+    "contact": {
+        "header1": "Orari di apertura:",
+        "header2": "E-mail:",
+        "header3": "Messaggio:",
+        "time1": "Lun-Ven: dalle 8.00 alle 18.00",
+        "time2": "Sab-Dom: dalle 8.00 alle 18.00",
+        "location": "Hinterlände 5, 39037 Valles, Alto Adige (IT)",
+        "sendButton": "Inviare",
+        "impressum": "Impressum",
+        "privacy": "Privacy"
+    },
     "carousel":{
         "main": "Sconto famiglia del 10% sul noleggio sci",
         "second": "Direttamente alla stazione sciistica di Jochtal"
     },
     "mainbody": {
+        "cardHeader1": "Noleggio sci",
+        "cardHeader2": "Biciclette elettriche",
+        "cardHeader3": "Shop",
+        "cardLink1": "Noleggio sci",
+        "cardLink2": "Noleggio e-bike",
+        "cardLink3": "Shop",
         "card1": "Offriamo un'ampia gamma di attrezzature sciistiche di qualità a noleggio e in vendita. Nel nostro negozio di noleggio è possibile noleggiare tutto, dagli sci agli snowboard agli sci da fondo, in diverse misure e stili per ogni livello di abilità.",
         "card2": "Volete esplorare la natura su due ruote? Il nostro noleggio di biciclette elettriche è il modo perfetto per farlo. Abbiamo una gamma di biciclette elettriche in offerta, tutte dotate della tecnologia più avanzata e progettate per garantire il massimo comfort e le massime prestazioni.",
         "card3": "Oltre al noleggio di sci ed e-bike, abbiamo anche un negozio di souvenir dove potrete trovare il souvenir perfetto o il regalo per i vostri cari. Offriamo una vasta gamma di articoli unici, fatti a mano e regionali."
     },
+    "serviceDiv": {
+        "text1": "Abbiamo una nostra officina sciistica dove offriamo una serie di servizi per mantenere la vostra attrezzatura in ottime condizioni.",
+        "text2": "I nostri tecnici esperti possono offrirvi di tutto, dalla sciolinatura di base all'affilatura delle lamine, fino a riparazioni e regolazioni avanzate. Che abbiate bisogno di una rapida messa a punto o di un servizio completo sugli sci, noi abbiamo tutto.",
+        "text3": "Il nostro laboratorio di sci è dotato degli strumenti e delle attrezzature più recenti per garantire la manutenzione dei vostri sci secondo gli standard più elevati. Utilizziamo solo i migliori materiali e prodotti, in modo che possiate essere certi che i vostri sci funzionino al meglio in montagna."
+    },
+    "depotDiv": {
+        "text1": "Il nostro deposito sci è il luogo perfetto per riporre l'attrezzatura da sci prima e dopo una giornata sulle piste!",
+        "text2": "Il deposito sci può essere utilizzato gratuitamente se si noleggia l'attrezzatura da noi!",
+        "text3": "Presso la nostra stazione di noleggio sono disponibili armadietti riscaldati in cui è possibile riporre i propri effetti personali mentre si scia e l'attrezzatura da sci o da snowboard durante la notte. I vostri effetti personali e le vostre attrezzature sono al sicuro nel nostro deposito. È possibile prenotare il deposito sci in loco."
+    },
     "skiverleih": {
+        "header1": "Noleggio sci e snowboard",
+        "header2": "Attrezzatura premium",
+        "header3": "Prezzi del noleggio",
         "firstSec1": "Se state pianificando un viaggio sugli sci e avete bisogno di un'attrezzatura di qualità per sfruttare al meglio la vostra esperienza, il nostro noleggio sci è il posto giusto! Offriamo un'ampia gamma di sci, scarponi e altre attrezzature per tutti i livelli di abilità, dal principiante all'esperto.",
         "firstSec2": "Il nostro personale esperto e cordiale vi aiuterà a trovare l'attrezzatura perfetta per le vostre esigenze e preferenze, in modo che possiate divertirvi in sicurezza sulle piste.",
         "secondSec1": "Offriamo un'ampia gamma di sci e scarponi di alcuni dei marchi più rinomati del settore. Il nostro obiettivo è fornire ai nostri clienti un'attrezzatura di qualità che permetta loro di godere appieno delle piste.",

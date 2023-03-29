@@ -47,7 +47,7 @@ const Skiverleih = () => {
                         <img src={Test1} alt="Your description" class="verleih-firstImg" data-aos="fade-right"/>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 verleih-firstText">
-                        <h2>Ski- & Snowboard-Verleih</h2>
+                        <h2>{/*Ski- & Snowboard-Verleih*/t("skiverleih.header1")}</h2>
                         <p>{t("skiverleih.firstSec1")}{/*Wenn Sie eine Skireise planen und eine hochwertige Ausrüstung benötigen, um das Beste aus Ihrem Erlebnis zu machen, sind Sie bei unserem Skiverleih an der richtigen Adresse! Wir bieten eine große Auswahl an Skiern, Skischuhen und anderer Ausrüstung für alle Könnerstufen, vom Anfänger bis zum Experten.*/} 
                             <br/><br/>
                             {t("skiverleih.firstSec2")}{/*Unsere sachkundigen und freundlichen Mitarbeiter helfen Ihnen, die perfekte Ausrüstung für Ihre Bedürfnisse und Vorlieben zu finden, damit Sie eine sichere und angenehme Zeit auf den Pisten verbringen können.*/}</p>
@@ -59,7 +59,7 @@ const Skiverleih = () => {
                         <img src={Test2} alt="Your description" class="verleih-secondImg" data-aos="fade-left"/>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 verleih-secondText">
-                        <h2>1A Equipment in Vals</h2>
+                        <h2>{/*1A Equipment in Vals*/t("skiverleih.header2")}</h2>
                         <p>{t("skiverleih.secondSec1")}{/*Wir bieten eine große Auswahl an Skiern und Schuhen von einigen der renommiertesten Marken in der Branche. Unser Ziel ist es, unsere Kunden mit hochwertiger Ausrüstung zu versorgen, damit sie die Pisten in vollen Zügen genießen können.*/}
                             <br/><br/>
                             {t("skiverleih.secondSec2")}{/*Wir bieten eine Reihe von Skiern der beiden Marken Elan und Völkl an. Beide Marken können auf eine lange Tradition in der Herstellung von qualitativ hochwertigen Skiern zurückblicken, die für eine Vielzahl von Bedingungen ausgelegt sind.*/}
@@ -88,7 +88,7 @@ const Skiverleih = () => {
 
             <div class="container fluid">
                 <div class="verleih-middleSection text-center">
-                    <h1>Verleih Preise</h1>
+                    <h1>{/*Verleih Preise*/t("skiverleih.header3")}</h1>
                     {/*<p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke, sodass Sie alles haben, was Sie für die Piste brauchen. </p>*/}
                     <p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke. Der siebte Tag der Ausleihe ist kostenlos. Die ausgeliehene Ausrüstung können Sie kostenlos in unserem <a href="/#Skidepot">Skidepot</a> lagern.</p>
                 </div>
