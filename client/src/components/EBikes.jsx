@@ -6,6 +6,7 @@ import BikeFront2 from './../images/bikeFront2.png'
 import BikeSide1 from './../images/bikeSide1.png'
 import BikeSide2 from './../images/bikeSide2.png'
 import React, { useState, useEffect } from 'react';
+import {useTranslation} from "react-i18next"
 
 const EBikes = () => {
     const [firstBike, setFirstBike] = useState(BikeFront1);
@@ -15,6 +16,8 @@ const EBikes = () => {
     const [resArray, setResArray] = useState([]);
     const expensivePrices = [50, 60, 70, 80, 90]
     const prices = [45, 54, 63, 72, 81];
+
+    const {t, i18n} = useTranslation();
 
     const getBike = async() => {
         try {
@@ -71,13 +74,13 @@ const EBikes = () => {
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="d-flex align-items-center"> <i class="fa fa-long-arrow-left"></i> <span class="ml-1"></span> </div> <i class="fa fa-shopping-cart text-muted"></i>
                                                 </div>
-                                                <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">{i === 0 ? "Men" : "Women"}</span>
+                                                <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">{i === 0 ? t("ebikes.gender1") : t("ebikes.gender2")}</span>
                                                     <h5 class="text-uppercase">E-Mountainbike</h5>
                                                     <div class="price d-flex flex-row align-items-center"> <span class="act-price">{i === 0 ? prices[firstDays] : prices[secondDays]}€</span>
                                                         <div class="ml-2"> <small class="dis-price">{i === 0 ? expensivePrices[firstDays] : expensivePrices[secondDays]}€</small> <span>10% OFF</span> </div>
                                                     </div>
                                                     <div class="sizes mt-4" id='days'>
-                                                        <h6 class="text-uppercase">Verleih Tage:</h6> 
+                                                        <h6 class="text-uppercase">{t("ebikes.days")}:</h6> 
                                                         <label class="radio"> 
                                                             <input type="radio" name={"size" + i} value={"S" + i} onChange={() => (i === 0 ? setFirstDays(0) : setSecondDays(0))} checked={i === 0 ? (firstDays === 0) : (secondDays === 0)}/> 
                                                             <span>1</span> 
@@ -102,14 +105,14 @@ const EBikes = () => {
                                                 </div>
                                                 <p class="about">
                                                     {/*<br/><p class="bg-warning">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
-                                                    <br/>*/}<br/><b>Name:</b> {bikes.eBike_name}
-                                                    <br/><b>Motor:</b> {bikes.eBike_engine}
-                                                    <br/><b>Akku:</b> {bikes.eBike_battery}
-                                                    <br/><b>Bremsen:</b> {bikes.eBike_brake}
-                                                    <br/><b>Getriebe:</b> {bikes.eBike_gear}
-                                                    <br/><b>Dämpfer:</b> {bikes.eBike_fork} {bikes.eBike_damper}
+                                                    <br/>*/}<br/><b>{t("ebikes.ebike.name")}:</b> {bikes.eBike_name}
+                                                    <br/><b>{t("ebikes.ebike.engine")}:</b> {bikes.eBike_engine}
+                                                    <br/><b>{t("ebikes.ebike.battery")}:</b> {bikes.eBike_battery}
+                                                    <br/><b>{t("ebikes.ebike.brakes")}:</b> {bikes.eBike_brake}
+                                                    <br/><b>{t("ebikes.ebike.gearbox")}:</b> {bikes.eBike_gear}
+                                                    <br/><b>{t("ebikes.ebike.damper")}:</b> {bikes.eBike_fork} {bikes.eBike_damper}
                                                 </p>
-                                                <div class="cart mt-4 align-items-center"> <button class="btn btn-danger text-uppercase mr-2 px-4">Keine online Reservierung möglich</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
+                                                <div class="cart mt-4 align-items-center"> <button class="btn btn-danger text-uppercase mr-2 px-4">{t("ebikes.link")}</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
                                                 <br/>
                                             </div>
                                         </div>

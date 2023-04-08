@@ -51,8 +51,26 @@
         "secondSec1": "We offer a wide range of skis and boots from some of the most renowned brands in the industry. Our goal is to provide our customers with quality equipment so they can enjoy the slopes to the fullest.",
         "secondSec2": "We offer a range of skis from the two brands Elan and Völkl. Both brands have a long tradition of producing high quality skis designed for a wide range of conditions.",
         "secondSec3": "In addition to our selection of skis, we also offer a range of boots from Dalbello and Fischer.",
-        "thirdSec1": "Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke. Der siebte Tag der Ausleihe ist kostenlos. Die ausgeliehene Ausrüstung können Sie kostenlos in unserem ",
-        "thirdSec2": "Skidepot",
-        "thirdSec3": " lagern."
+        "thirdSec1": "We offer prices for ski sets as well as individual prices for our high-quality equipment. A set includes skis, boots and poles. The seventh day of the rental is free of charge. You can store the rented equipment in our ",
+        "thirdSec2": "ski depot",
+        "thirdSec3": " free of charge.",
+        "price1": "Skiset price",
+        "price2": "Individual price",
+        "day1": "day",
+        "day2": "days"
+    },
+    "ebikes": {
+        "gender1": "Men",
+        "gender2": "Women",
+        "days": "Rental period (days)",
+        "ebike": {
+            "name": "Name",
+            "engine": "Engine",
+            "battery": "Battery",
+            "brakes": "Brakes",
+            "gearbox": "Gearbox",
+            "damper": "Damper"
+        },
+        "link": "No online booking possible"
     }
 }

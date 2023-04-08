@@ -53,6 +53,24 @@
         "secondSec3": "Zusätzlich zu unserer Auswahl an Skiern bieten wir auch eine Reihe von Schuhen von Dalbello und Fischer an.",
         "thirdSec1": "Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke. Der siebte Tag der Ausleihe ist kostenlos. Die ausgeliehene Ausrüstung können Sie kostenlos in unserem ",
         "thirdSec2": "Skidepot",
-        "thirdSec3": " lagern."
+        "thirdSec3": " lagern.",
+        "price1": "Setpreise",
+        "price2": "Einzelpreise",
+        "day1": "Tag",
+        "day2": "Tage"
+    },
+    "ebikes": {
+        "gender1": "Männer",
+        "gender2": "Frauen",
+        "days": "Mietdauer (Tage)",
+        "ebike": {
+            "name": "Name",
+            "engine": "Motor",
+            "battery": "Akku",
+            "brakes": "Bremsen",
+            "gearbox": "Getriebe",
+            "damper": "Dämpfer"
+        },
+        "link": "Keine online reservierung möglich"
     }
 }

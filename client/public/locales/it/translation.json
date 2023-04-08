@@ -50,6 +50,27 @@
         "firstSec2": "Il nostro personale esperto e cordiale vi aiuterà a trovare l'attrezzatura perfetta per le vostre esigenze e preferenze, in modo che possiate divertirvi in sicurezza sulle piste.",
         "secondSec1": "Offriamo un'ampia gamma di sci e scarponi di alcuni dei marchi più rinomati del settore. Il nostro obiettivo è fornire ai nostri clienti un'attrezzatura di qualità che permetta loro di godere appieno delle piste.",
         "secondSec2": "Offriamo una gamma di sci dei due marchi Elan e Völkl. Entrambi i marchi hanno una lunga tradizione nella produzione di sci di alta qualità progettati per un'ampia gamma di condizioni.",
-        "secondSec3": "Oltre alla nostra selezione di sci, offriamo anche una gamma di scarponi Dalbello e Fischer."
+        "secondSec3": "Oltre alla nostra selezione di sci, offriamo anche una gamma di scarponi Dalbello e Fischer.",
+        "thirdSec1": "Offriamo prezzi per set di sci e prezzi individuali per le nostre attrezzature di alta qualità. Un set comprende sci, scarponi e bastoncini. Il settimo giorno di noleggio è gratuito. È possibile depositare gratuitamente l'attrezzatura noleggiata nel nostro ",
+        "thirdSec2": "deposito sci",
+        "thirdSec3": ".",
+        "price1": "Prezzo del set",
+        "price2": "Prezzo singolo",
+        "day1": "giorno",
+        "day2": "giorni"
+    },
+    "ebikes": {
+        "gender1": "Uomini",
+        "gender2": "Donne",
+        "days": "Periodo di noleggio (giorni)",
+        "ebike": {
+            "name": "Nome",
+            "engine": "Motore",
+            "battery": "Batteria",
+            "brakes": "Freni",
+            "gearbox": "Cambio",
+            "damper": "Ammortizzatore"
+        },
+        "link": "Non è possibile prenotare online"
     }
 }

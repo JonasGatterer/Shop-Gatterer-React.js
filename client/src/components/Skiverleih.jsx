@@ -90,7 +90,8 @@ const Skiverleih = () => {
                 <div class="verleih-middleSection text-center">
                     <h1>{/*Verleih Preise*/t("skiverleih.header3")}</h1>
                     {/*<p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke, sodass Sie alles haben, was Sie für die Piste brauchen. </p>*/}
-                    <p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke. Der siebte Tag der Ausleihe ist kostenlos. Die ausgeliehene Ausrüstung können Sie kostenlos in unserem <a href="/#Skidepot">Skidepot</a> lagern.</p>
+                    {/*<p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke. Der siebte Tag der Ausleihe ist kostenlos. Die ausgeliehene Ausrüstung können Sie kostenlos in unserem <a href="/#Skidepot">Skidepot</a> lagern.</p>*/}
+                    <p>{t("skiverleih.thirdSec1")}<a href="/#Skidepot">{t("skiverleih.thirdSec2")}</a>{t("skiverleih.thirdSec3")}</p>
                 </div>
             </div>
 
@@ -106,13 +107,13 @@ const Skiverleih = () => {
                         <table class="table table-hover table-striped">
                             <thead>
                                 <tr>
-                                <th scope="col"><h4><b>Setpreise:</b></h4></th>
-                                <th scope="col">1 Tag</th>
-                                <th scope="col">2 Tage</th>
-                                <th scope="col">3 Tage</th>
-                                <th scope="col">4 Tage</th>
-                                <th scope="col">5 Tage</th>
-                                <th scope="col">6 + 7 Tage</th>
+                                <th scope="col"><h4><b>{t("skiverleih.price1")}:</b></h4></th>
+                                <th scope="col">1 {t("skiverleih.day1")}</th>
+                                <th scope="col">2 {t("skiverleih.day2")}</th>
+                                <th scope="col">3 {t("skiverleih.day2")}</th>
+                                <th scope="col">4 {t("skiverleih.day2")}</th>
+                                <th scope="col">5 {t("skiverleih.day2")}</th>
+                                <th scope="col">6 + 7 {t("skiverleih.day2")}</th>
                                 </tr>
                             </thead>
                             <tbody class="table-group-divider table-divider-color">
@@ -229,13 +230,13 @@ const Skiverleih = () => {
                         <table class="table table-hover table-striped">
                             <thead>
                                 <tr>
-                                <th scope="col"><h4><b>Einzelpreise:</b></h4></th>
-                                <th scope="col">1 Tag</th>
-                                <th scope="col">2 Tage</th>
-                                <th scope="col">3 Tage</th>
-                                <th scope="col">4 Tage</th>
-                                <th scope="col">5 Tage</th>
-                                <th scope="col">6 + 7 Tage</th>
+                                <th scope="col"><h4><b>{t("skiverleih.price2")}:</b></h4></th>
+                                <th scope="col">1 {t("skiverleih.day1")}</th>
+                                <th scope="col">2 {t("skiverleih.day2")}</th>
+                                <th scope="col">3 {t("skiverleih.day2")}</th>
+                                <th scope="col">4 {t("skiverleih.day2")}</th>
+                                <th scope="col">5 {t("skiverleih.day2")}</th>
+                                <th scope="col">6 + 7 {t("skiverleih.day2")}</th>
                                 </tr>
                             </thead>
                             <tbody class="table-group-divider table-divider-color">
