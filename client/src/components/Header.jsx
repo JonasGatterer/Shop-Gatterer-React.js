@@ -39,16 +39,37 @@ const Header = () => {
                         <li class="nav-item">
                             <a class="nav-link" href="#Kontakt">{t("header.header5")}</a>
                         </li>
+                        {/*
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <button onClick={() => changeLanguage("de")}>DE</button>
+                                <button id="languageButton" onClick={() => changeLanguage("de")}>DE</button>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item"><button onClick={() => changeLanguage("it")}>IT</button></a></li>
+                                <li><a class="dropdown-item"><button id="languageButton" onClick={() => changeLanguage("it")}>IT</button></a></li>
                                 <li><hr class="dropdown-divider"/></li>
-                                <li><a class="dropdown-item"><button onClick={() => changeLanguage("en")}>EN</button></a></li>
+                                <li><a class="dropdown-item"><button id="languageButton" onClick={() => changeLanguage("en")}>EN</button></a></li>
                             </ul>
                         </li>
+                        */}
+                        <li class="nav-item dropstart">
+                            <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="material-icons">translate</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item"><button id="languageButton" onClick={() => changeLanguage("de")}>Deutsch</button></a></li>
+                                <li><hr class="dropdown-divider"/></li>
+                                <li><a class="dropdown-item"><button id="languageButton" onClick={() => changeLanguage("it")}>Italiano</button></a></li>
+                                <li><hr class="dropdown-divider"/></li>
+                                <li><a class="dropdown-item"><button id="languageButton" onClick={() => changeLanguage("en")}>English</button></a></li>
+                            </ul>
+                        </li>
+                        {/*
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option onSelect={() => changeLanguage("de")} selected>DE</option>
+                            <option onSelect={() => changeLanguage("it")} value="1">IT</option>
+                            <option onSelect={() => changeLanguage("en")} value="2">EN</option>
+                        </select>
+                        */}
                     </ul>
                 </div>
             </div>

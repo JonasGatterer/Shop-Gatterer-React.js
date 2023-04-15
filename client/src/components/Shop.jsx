@@ -4,11 +4,12 @@ import Footer from './Footer';
 import './Shop.css'
 import { Picture1, Picture2, Picture3, Picture4, Picture5 /*, Picture6, Picture7, Picture8, Picture9, Picture10*/ } from './../images/pictureIndex'
 //import from pictureIndex.js!!!
+import {useTranslation} from "react-i18next"
 
 const Shop = () => {
     //const pictures = [Picture1, Picture2, Picture3, Picture4, Picture5, Picture6, Picture7, Picture8, Picture9, Picture10]
 
-    
+    const {t, i18n} = useTranslation();
 
     return(
         <div class="bg-white">
@@ -41,7 +42,7 @@ const Shop = () => {
                 <div class="mainShopText text-center">
                     <h1>Shop Gatterer</h1>
                     <br/>
-                    <p>Text über shopText über shopText über shopText über shopText über shopText über shopText über shop ext über shopText über shopText über shopText über shopText über shopText über shopText über shopext über shopText über shopText über shopText über shopText über shopText über shopText über shop</p>
+                    <p>{t("shop.text")}</p>
                 </div>
             </div>
 
