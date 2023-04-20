@@ -15,7 +15,7 @@ const EBikes = () => {
     const [secondDays, setSecondDays] = useState(0);
     const [resArray, setResArray] = useState([]);
     const expensivePrices = [50, 60, 70, 80, 90]
-    const prices = [45, 54, 63, 72, 81];
+    const prices = [35, 49, 92, 127, 159, 188];
 
     const {t, i18n} = useTranslation();
 
@@ -77,28 +77,32 @@ const EBikes = () => {
                                                 <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">{i === 0 ? t("ebikes.gender1") : t("ebikes.gender2")}</span>
                                                     <h5 class="text-uppercase">E-Mountainbike</h5>
                                                     <div class="price d-flex flex-row align-items-center"> <span class="act-price">{i === 0 ? prices[firstDays] : prices[secondDays]}€</span>
-                                                        <div class="ml-2"> <small class="dis-price">{i === 0 ? expensivePrices[firstDays] : expensivePrices[secondDays]}€</small> <span>10% OFF</span> </div>
+                                                        {/*<div class="ml-2"> <small class="dis-price">{i === 0 ? expensivePrices[firstDays] : expensivePrices[secondDays]}€</small> <span>10% OFF</span> </div>*/}
                                                     </div>
                                                     <div class="sizes mt-4" id='days'>
                                                         <h6 class="text-uppercase">{t("ebikes.days")}:</h6> 
                                                         <label class="radio"> 
-                                                            <input type="radio" name={"size" + i} value={"S" + i} onChange={() => (i === 0 ? setFirstDays(0) : setSecondDays(0))} checked={i === 0 ? (firstDays === 0) : (secondDays === 0)}/> 
+                                                            <input type="radio" name={"size" + i} value={"SM" + i} onChange={() => (i === 0 ? setFirstDays(0) : setSecondDays(0))} checked={i === 0 ? (firstDays === 0) : (secondDays === 0)}/> 
+                                                            <span>1/2</span> 
+                                                        </label> 
+                                                        <label class="radio"> 
+                                                            <input type="radio" name={"size" + i} value={"S" + i} onChange={() => (i === 0 ? setFirstDays(1) : setSecondDays(1))} checked={i === 0 ? (firstDays === 1) : (secondDays === 1)}/> 
                                                             <span>1</span> 
                                                         </label> 
                                                         <label class="radio"> 
-                                                            <input type="radio" name={"size" + i} value={"M" + i} onChange={() => (i === 0 ? setFirstDays(1) : setSecondDays(1))} checked={i === 0 ? (firstDays === 1) : (secondDays === 1)}/> 
+                                                            <input type="radio" name={"size" + i} value={"M" + i} onChange={() => (i === 0 ? setFirstDays(2) : setSecondDays(2))} checked={i === 0 ? (firstDays === 2) : (secondDays === 2)}/> 
                                                             <span>2</span> 
                                                         </label> 
                                                         <label class="radio"> 
-                                                            <input type="radio" name={"size" + i} value={"L" + i} onChange={() => (i === 0 ? setFirstDays(2) : setSecondDays(2))} checked={i === 0 ? (firstDays === 2) : (secondDays === 2)}/> 
+                                                            <input type="radio" name={"size" + i} value={"L" + i} onChange={() => (i === 0 ? setFirstDays(3) : setSecondDays(3))} checked={i === 0 ? (firstDays === 3) : (secondDays === 3)}/> 
                                                             <span>3</span> 
                                                         </label> 
                                                         <label class="radio"> 
-                                                            <input type="radio" name={"size" + i} value={"XL" + i} onChange={() => (i === 0 ? setFirstDays(3) : setSecondDays(3))} checked={i === 0 ? (firstDays === 3) : (secondDays === 3)}/> 
+                                                            <input type="radio" name={"size" + i} value={"XL" + i} onChange={() => (i === 0 ? setFirstDays(4) : setSecondDays(4))} checked={i === 0 ? (firstDays === 4) : (secondDays === 4)}/> 
                                                             <span>4</span> 
                                                         </label> 
                                                         <label class="radio"> 
-                                                            <input type="radio" name={"size" + i} value={"XXL" + i} onChange={() => (i === 0 ? setFirstDays(4) : setSecondDays(4))} checked={i === 0 ? (firstDays === 4) : (secondDays === 4)}/> 
+                                                            <input type="radio" name={"size" + i} value={"XXL" + i} onChange={() => (i === 0 ? setFirstDays(5) : setSecondDays(5))} checked={i === 0 ? (firstDays === 5) : (secondDays === 5)}/> 
                                                             <span>5</span> 
                                                         </label>
                                                     </div>

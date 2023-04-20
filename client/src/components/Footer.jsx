@@ -5,6 +5,7 @@ import InstagramIcon from './../images/instagram.svg'
 import GithubIcon from './../images/github.svg'
 import Map from './../images/map.jpg'
 import {useTranslation} from "react-i18next"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
@@ -52,8 +53,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div class="mt-4 text-center">
-                            <span>- <a class="linkImpressum" href="/impressum">{/*Impressum*/t("contact.impressum")}</a> - </span>
-                            <span><a class="linkPrivacy" href="/privacy">{/*Privacy*/t("contact.privacy")}</a> -</span>
+                            
+                            <span>- <Link class="linkImpressum" to="/impressum">{t("contact.impressum")}</Link>{/*<a class="linkImpressum" href="/impressum">{t("contact.impressum")}</a>*/} - </span>
+                            <span><Link class="linkPrivacy" to="/privacy">{t("contact.privacy")}</Link>{/*<a class="linkPrivacy" href="/privacy">{t("contact.privacy")}</a>*/} -</span>
                 </div>
             </div>
         </div>

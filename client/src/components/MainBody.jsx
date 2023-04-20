@@ -10,6 +10,7 @@ import Service from './../images/service.jpg'
 //import Skidepot2 from './../images/skidepot2.jpg'
 import Skidepot3 from './../images/skidepot3.jpg.png'
 import {useTranslation} from "react-i18next"
+import { Link } from "react-router-dom";
 
 const MainBody = () => {
 
@@ -38,7 +39,13 @@ const MainBody = () => {
                             <div class="card-img"><img class="img-fluid" src={Skiing} alt="Skiing" id="skiingCardImg"/></div>
                             <div class="card-title"><h4>{/*Winterausrüstung*/t("mainbody.cardHeader1")}</h4></div>
                             <div class="card-text"><p>{/*Wir bieten eine große Auswahl an hochwertiger Skiausrüstung zum Verleih und Verkauf. In unserem Verleih können Sie alles von Skiern über Snowboards bis hin zu Langlaufskiern in verschiedenen Größen und Stilen für jede Könnerstufe mieten.*/}{t("mainbody.card1")}</p></div>
-                            <div><a href="/skiverleih" class="btn btn-primary">{/*Zum Skiverleih*/t("mainbody.cardLink1")}</a></div>
+                            <div>{/*<a href="/skiverleih" class="btn btn-primary">Zum Skiverleih{t("mainbody.cardLink1")}</a>*/}
+                                <Link to="/skiverleih">
+                                    <button type="button" class="btn btn-primary">
+                                        {/*Zum Skiverleih*/t("mainbody.cardLink1")}
+                                    </button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +56,13 @@ const MainBody = () => {
                             <div class="card-title"><h4>{/*E-Bikes*/t("mainbody.cardHeader2")}</h4></div>
                             <div class="card-text"><p>{/*Möchten Sie die Natur auf zwei Rädern erkunden? Unser E-Bike-Verleih ist die perfekte Möglichkeit dazu. Wir haben eine Reihe von Elektrofahrrädern im Angebot, die alle mit der neuesten Technologie ausgestattet und auf maximalen Komfort und Leistung ausgelegt sind.*/}{t("mainbody.card2")}</p></div>
                                                     {/*Ganz gleich, ob Sie die nähere Umgebung erkunden oder ein anspruchsvolleres Terrain in Angriff nehmen möchten, unsere E-Bikes bringen Sie ans Ziel. Das Verleihverfahren ist schnell und einfach, und wir stehen Ihnen jederzeit mit Tipps und Ratschlägen zu den besten Routen zur Seite.*/}
-                            <div><a href="/e-bikes" class="btn btn-primary">{/*Zum E-Bike-Verleih*/t("mainbody.cardLink2")}</a></div>
+                            <div>{/*<a href="/e-bikes" class="btn btn-primary">Zum E-Bike-Verleih{t("mainbody.cardLink2")}</a>*/}
+                                <Link to="/e-bikes">
+                                    <button type="button" class="btn btn-primary">
+                                        {t("mainbody.cardLink2")}
+                                    </button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -60,7 +73,13 @@ const MainBody = () => {
                             <div class="card-title"><h4>{/*Shop*/t("mainbody.cardHeader3")}</h4></div>
                             <div class="card-text"><p>{/*Neben unserem Ski- und E-Bike-Verleih haben wir auch einen Geschenkeladen, in dem Sie das perfekte Souvenir oder Geschenk für Ihre Liebsten finden können. Wir bieten eine breite Palette einzigartiger, handgefertigter und regionaler Artikel an.*/}{t("mainbody.card3")}</p></div>
                                                     {/*, darunter skibezogene Geschenke, Kleidung und Accessoires sowie traditionelle Souvenirs und handgefertigte Artikel. Unser Souvenirshop ist der ideale Ort, um etwas Besonderes zu finden, das Sie an Ihren Aufenthalt in der Region erinnert, oder um ein Geschenk für jemand Besonderen zu besorgen. Unser freundliches Personal berät Sie gerne und hilft Ihnen bei der Suche nach dem perfekten Geschenk.*/}
-                            <div><a href="/shop" class="btn btn-primary">{/*Zum Shop*/t("mainbody.cardLink3")}</a></div>
+                            <div>{/*<a href="/shop" class="btn btn-primary">Zum Shop{t("mainbody.cardLink3")}</a>*/}
+                                <Link to="/shop">
+                                    <button type="button" class="btn btn-primary">
+                                        {t("mainbody.cardLink3")}
+                                    </button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
