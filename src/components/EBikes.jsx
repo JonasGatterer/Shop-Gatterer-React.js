@@ -21,7 +21,7 @@ const EBikes = () => {
 
     const getBike = async() => {
         try {
-            const response = await fetch("http://localhost:5000/api/eBikeFreature");
+            const response = await fetch("https://shop-gatterer-reactjs-server-production.up.railway.app/api/eBikeFreature");
             const jsonData = await response.json();
             setResArray(jsonData);
         } catch (error) {
