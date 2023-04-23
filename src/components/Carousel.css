@@ -7,10 +7,7 @@
     height: 88vh;
     object-fit: cover;
 }*/
-/*
-#carouselExampleSlidesOnly{
-    margin-top: 11.9vh;
-}*/
+
 
 .carousel-inner img{
     width: 100%;
@@ -61,9 +58,9 @@
     }
 
     .carousel-overlayText-second{
-        top: 75%;
+        top: 77%;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -74,6 +71,27 @@
 
     .carousel-overlayText-second{
         top: 84%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .carousel-inner img{
+        height: 70vh;
+    }
+
+    #carouselSlides{
+        margin-top: -10vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-overlayText{
+        top: 70%;
+        font-size: 1rem;
+    }
+
+    .carousel-overlayText-second{
+        top: 87%;
         text-align: center;
     }
 

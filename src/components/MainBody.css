@@ -176,6 +176,15 @@
         max-width: 500px;
         margin-top: 4rem;
     }
+
+    #Shop{
+        background-image: url("../images/bg_skiing.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 20px;
+    }
 }
 
 @media (min-width: 1400px) {

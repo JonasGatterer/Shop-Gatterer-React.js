@@ -63,13 +63,13 @@ const EBikes = () => {
                             <div class="col-md-10">
                                 <div class="card">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 ebike-card">
                                             <div class="images p-3">
                                                 <div class="text-center p-4"> <img id="main-image" src={i === 0 ? firstBike : secondBike} alt="E-Bike" width="400" /> </div>
                                                 <div class="thumbnail text-center"> <img onClick={() => changePicture(i, "front")} src={i === 0 ? BikeFront1 : BikeFront2} alt="E-Bike side view" width="150"/> <img onClick={() => changePicture(i, "side")} src={i === 0 ? BikeSide1 : BikeSide2} alt="E-Bike front view" width="150"/> </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 ebike-card">
                                             <div class="product p-4">
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="d-flex align-items-center"> <i class="fa fa-long-arrow-left"></i> <span class="ml-1"></span> </div> <i class="fa fa-shopping-cart text-muted"></i>

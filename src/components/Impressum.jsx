@@ -41,7 +41,7 @@ const Impressum = () => {
                 </p>
                 <p>
                 Jonas Gatterer <br/>
-                github link <br/>
+                <a href="https://github.com/JonasGatterer/Shop-Gatterer-React.js">Github repository</a><br/>
                 </p>
                 <p>
                 <b>

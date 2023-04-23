@@ -10,7 +10,7 @@ const Carousel = () => {
     const {t, i18n} = useTranslation();
 
     return(
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel">
             <div id="Home"></div>
         {/*
         <div id="slides" class="carousel slide" data-ride="carousel">

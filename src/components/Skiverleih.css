@@ -26,6 +26,7 @@
 
 .verleih-row2{
     background-color: #F9F9F9;
+    overflow-x: hidden;
 }
 
 .verleih-firstText{
