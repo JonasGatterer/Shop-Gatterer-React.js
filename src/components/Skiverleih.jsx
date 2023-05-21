@@ -20,6 +20,7 @@ import "./Skiverleih.css"
 import Test1 from './../images/test1.jpg'
 import Test2 from './../images/test2.jpg'
 import {useTranslation} from "react-i18next"
+import { Link } from "react-router-dom";
 
 const Skiverleih = () => {
     /*
@@ -91,7 +92,7 @@ const Skiverleih = () => {
                     <h1>{/*Verleih Preise*/t("skiverleih.header3")}</h1>
                     {/*<p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke, sodass Sie alles haben, was Sie für die Piste brauchen. </p>*/}
                     {/*<p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke. Der siebte Tag der Ausleihe ist kostenlos. Die ausgeliehene Ausrüstung können Sie kostenlos in unserem <a href="/#Skidepot">Skidepot</a> lagern.</p>*/}
-                    <p>{t("skiverleih.thirdSec1")}<a href="/#Skidepot">{t("skiverleih.thirdSec2")}</a>{t("skiverleih.thirdSec3")}</p>
+                    <p>{t("skiverleih.thirdSec1")}<Link to="/#Skidepot">{t("skiverleih.thirdSec2")}</Link>{/*<a href="/#Skidepot">{t("skiverleih.thirdSec2")}</a>*/}{t("skiverleih.thirdSec3")}</p>
                 </div>
             </div>
 
