@@ -10,8 +10,8 @@
         "header1": "Öffnungszeiten:",
         "header2": "E-Mail:",
         "header3": "Nachricht:",
-        "time1": "Di-Sa: 8:30-18:30 Uhr",
-        "time2": "So: 8:30-13:00 Uhr",
+        "time1": "Di-Sa: 9:00-12:30 Uhr und 14:00-18:30 Uhr",
+        "time2": "So: 9:00-12:30 Uhr",
         "location": "Hinterlände 5, 39037 Vals, Südtirol (IT)",
         "sendButton": "Senden",
         "impressum": "Impressum",
@@ -71,7 +71,7 @@
             "gearbox": "Getriebe",
             "damper": "Dämpfer"
         },
-        "link": "Keine online reservierung möglich"
+        "link": "Reservierung über Email"
     },
     "shop": {
         "text": "Wir bieten hochwertige Geschenke für jeden Anlass und jedes Budget. Unsere Auswahl an Geschenken wird ständig erweitert und verändert, so dass unsere Kunden bei jedem Besuch etwas Neues entdecken können. Wir achten besonders darauf, dass jedes Geschenk mit Bedacht und Sorgfalt präsentiert wird. Lassen Sie uns Ihnen helfen, Ihre besonderen Anlässe mit einem einzigartigen, bedeutungsvollen Geschenk noch schöner zu machen."
