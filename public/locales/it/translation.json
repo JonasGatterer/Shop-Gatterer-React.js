@@ -10,15 +10,15 @@
         "header1": "Orari di apertura:",
         "header2": "E-mail:",
         "header3": "Messaggio:",
-        "time1": "Lunedi-Sabato: Chiuso",
-        "time2": "Domenica: Chiuso",
+        "time1": "Lunedì-Sabato: 8:00 - 18:00",
+        "time2": "Domenica: 8:00 - 18:00",
         "location": "Hinterlände 5, 39037 Valles, Alto Adige (IT)",
         "sendButton": "Inviare",
         "impressum": "Impressum",
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Apertura del noleggio sci il 20 novembre",
+        "main": "Sconto famiglia del 10% sul noleggio sci",
         "second": "Direttamente alla stazione sciistica di Jochtal"
     },
     "mainbody": {

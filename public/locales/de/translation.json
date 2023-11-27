@@ -10,15 +10,15 @@
         "header1": "Öffnungszeiten:",
         "header2": "E-Mail:",
         "header3": "Nachricht:",
-        "time1": "Mo-Sa: Geschlossen",
-        "time2": "So: Geschlossen",
+        "time1": "Mo-Sa: 8:00 - 18:00 Uhr",
+        "time2": "So: 8:00 - 18:00 Uhr",
         "location": "Hinterlände 5, 39037 Vals, Südtirol (IT)",
         "sendButton": "Senden",
         "impressum": "Impressum",
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Öffnung Skiverleih am 20. November",
+        "main": "10% Familienrabatt auf Ausleihe",
         "second": "Direkt an der Talstation Jochtal"
     },
     "mainbody": {

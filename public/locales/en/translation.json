@@ -10,15 +10,15 @@
         "header1": "Opening hours:",
         "header2": "E-mail:",
         "header3": "Message:",
-        "time1": "Mon-Sat: Closed",
-        "time2": "Sun: Closed",
+        "time1": "Mon-Sat: 8:00 am - 6:00 pm",
+        "time2": "Sun: 8:00 am - 6:00 pm",
         "location": "Hinterlände 5, 39037 Vals, Südtirol (IT)",
         "sendButton": "Send",
         "impressum": "Impressum",
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Opening of ski rental on 20th November",
+        "main": "10% family discount on ski equipment",
         "second": "Directly at the Jochtal valley station"
     },
     "mainbody": {
