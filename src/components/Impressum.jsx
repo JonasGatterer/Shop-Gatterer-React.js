@@ -92,7 +92,7 @@ const Impressum = () => {
                 Irrtümer und Fehler vorbehalten - Ähnlichkeiten unbeabsichtigt.
                 </p>
                 <p>
-                © Skiverleih Gatterer 2023 - Alle Rechte vorbehalten.
+                © Skiverleih Gatterer 2024 - Alle Rechte vorbehalten.
                 </p>
             </div>
 
