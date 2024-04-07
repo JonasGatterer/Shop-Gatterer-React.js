@@ -52,7 +52,8 @@ const EBikes = () => {
 
     //console.log(resArray);
     //const {ebikefeatureid: index, ebike_name: name, ebike_gear: gear, ebike_fork: fork, ebike_engine: engine, ebike_damper: damper, ebike_brake: brake, ebike_battery: battery} = bikes;
-    const dataEbike = '{{"ebikefeatureid": 1, "ebike_name": "CROSS Maverix 27,5 Plus Sportive", "ebike_gear":"SRAM SX Eagle PG-1210", "ebike_fork": "RockShox Recon Boost", "ebike_engine": "Shimano Steps DU-E8000 250W, 70Nm", "ebike_damper": "Solo Air", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8035 504Wh, 36V 14Ah"},{"ebikefeatureid": 2, "ebike_name": "CROSS Quantum 27,5 Plus Sportive", "ebike_gear":"Shimano CS-HG5000", "ebike_fork": "Suntour XCM", "ebike_engine": "Shimano DU-E7000 250W, 60Nm", "ebike_damper": "34 Boost-Lo", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8010 504Wh, 36V 14Ah"}}';
+    //const dataEbike = '{{"ebikefeatureid": 1, "ebike_name": "CROSS Maverix 27,5 Plus Sportive", "ebike_gear": "SRAM SX Eagle PG-1210", "ebike_fork": "RockShox Recon Boost", "ebike_engine": "Shimano Steps DU-E8000 250W, 70Nm", "ebike_damper": "Solo Air", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8035 504Wh, 36V 14Ah"},{"ebikefeatureid": 2, "ebike_name": "CROSS Quantum 27,5 Plus Sportive", "ebike_gear": "Shimano CS-HG5000", "ebike_fork": "Suntour XCM", "ebike_engine": "Shimano DU-E7000 250W, 60Nm", "ebike_damper": "34 Boost-Lo", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8010 504Wh, 36V 14Ah"}}';
+    const dataEbike = '[{"ebikefeatureid": 1, "ebike_name": "CROSS Maverix 27,5 Plus Sportive", "ebike_gear": "SRAM SX Eagle PG-1210", "ebike_fork": "RockShox Recon Boost", "ebike_engine": "Shimano Steps DU-E8000 250W, 70Nm", "ebike_damper": "Solo Air", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8035 504Wh, 36V 14Ah"},{"ebikefeatureid": 2, "ebike_name": "CROSS Quantum 27,5 Plus Sportive", "ebike_gear": "Shimano CS-HG5000", "ebike_fork": "Suntour XCM", "ebike_engine": "Shimano DU-E7000 250W, 60Nm", "ebike_damper": "34 Boost-Lo", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8010 504Wh, 36V 14Ah"}]';
     const newResArray = JSON.parse(dataEbike);
 
     return(
@@ -113,12 +114,12 @@ const EBikes = () => {
                                                 </div>
                                                 <p class="about">
                                                     {/*<br/><p class="bg-warning">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
-                                                    <br/>*/}<br/><b>{t("ebikes.ebike.name")}:</b> {bikes.eBike_name}
-                                                    <br/><b>{t("ebikes.ebike.engine")}:</b> {bikes.eBike_engine}
-                                                    <br/><b>{t("ebikes.ebike.battery")}:</b> {bikes.eBike_battery}
-                                                    <br/><b>{t("ebikes.ebike.brakes")}:</b> {bikes.eBike_brake}
-                                                    <br/><b>{t("ebikes.ebike.gearbox")}:</b> {bikes.eBike_gear}
-                                                    <br/><b>{t("ebikes.ebike.damper")}:</b> {bikes.eBike_fork} {bikes.eBike_damper}
+                                                    <br/>*/}<br/><b>{t("ebikes.ebike.name")}:</b> {bikes[i].ebike_name/*bikes.eBike_name*/}
+                                                    <br/><b>{t("ebikes.ebike.engine")}:</b> {bikes[i].ebike_engine/*bikes.eBike_engine*/}
+                                                    <br/><b>{t("ebikes.ebike.battery")}:</b> {bikes[i].ebike_battery/*bikes.eBike_battery*/}
+                                                    <br/><b>{t("ebikes.ebike.brakes")}:</b> {bikes[i].ebike_brake/*bikes.eBike_brake*/}
+                                                    <br/><b>{t("ebikes.ebike.gearbox")}:</b> {bikes[i].ebike_gear/*bikes.eBike_gear*/}
+                                                    <br/><b>{t("ebikes.ebike.damper")}:</b> {bikes[i].ebike_fork/*bikes.eBike_fork*/} {bikes[0].ebike_damper/*bikes.eBike_damper*/}
                                                 </p>
                                                 <div class="cart mt-4 align-items-center"> <button class="btn btn-danger text-uppercase mr-2 px-4">{t("ebikes.link")}</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
                                                 <br/>
