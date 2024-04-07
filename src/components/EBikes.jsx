@@ -21,9 +21,10 @@ const EBikes = () => {
 
     const getBike = async() => {
         try {
-            const response = await fetch("https://shop-gatterer-reactjs-server-production.up.railway.app/api/eBikeFreature");
+            console.log("Retrieved data.")
+            /*const response = await fetch("https://shop-gatterer-reactjs-server-production.up.railway.app/api/eBikeFreature");
             const jsonData = await response.json();
-            setResArray(jsonData);
+            setResArray(jsonData);*/
         } catch (error) {
             console.error(error.message);
         }
@@ -51,12 +52,15 @@ const EBikes = () => {
 
     //console.log(resArray);
     //const {ebikefeatureid: index, ebike_name: name, ebike_gear: gear, ebike_fork: fork, ebike_engine: engine, ebike_damper: damper, ebike_brake: brake, ebike_battery: battery} = bikes;
+    const dataEbike = '{{"ebikefeatureid": 1, "ebike_name": "CROSS Maverix 27,5 Plus Sportive", "ebike_gear":"SRAM SX Eagle PG-1210", "ebike_fork": "RockShox Recon Boost", "ebike_engine": "Shimano Steps DU-E8000 250W, 70Nm", "ebike_damper": "Solo Air", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8035 504Wh, 36V 14Ah"},{"ebikefeatureid": 2, "ebike_name": "CROSS Quantum 27,5 Plus Sportive", "ebike_gear":"Shimano CS-HG5000", "ebike_fork": "Suntour XCM", "ebike_engine": "Shimano DU-E7000 250W, 60Nm", "ebike_damper": "34 Boost-Lo", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8010 504Wh, 36V 14Ah"}}';
+    const newResArray = JSON.parse(dataEbike);
 
     return(
         <div>
             <Header/>
             <div id="header"></div>
-            {resArray.map((bikes, i) => (
+            {/* {resArray.map((bikes, i) => ( */}
+            {newResArray.map((bikes, i) => (
                 <div id="cards">
                     <div class="container mt-3 mb-3">
                         <div class="row d-flex justify-content-center">
