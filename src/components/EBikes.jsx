@@ -114,12 +114,12 @@ const EBikes = () => {
                                                 </div>
                                                 <p class="about">
                                                     {/*<br/><p class="bg-warning">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
-                                                    <br/>*/}<br/><b>{t("ebikes.ebike.name")}:</b> {bikes[i].ebike_name/*bikes.eBike_name*/}
-                                                    <br/><b>{t("ebikes.ebike.engine")}:</b> {bikes[i].ebike_engine/*bikes.eBike_engine*/}
-                                                    <br/><b>{t("ebikes.ebike.battery")}:</b> {bikes[i].ebike_battery/*bikes.eBike_battery*/}
-                                                    <br/><b>{t("ebikes.ebike.brakes")}:</b> {bikes[i].ebike_brake/*bikes.eBike_brake*/}
-                                                    <br/><b>{t("ebikes.ebike.gearbox")}:</b> {bikes[i].ebike_gear/*bikes.eBike_gear*/}
-                                                    <br/><b>{t("ebikes.ebike.damper")}:</b> {bikes[i].ebike_fork/*bikes.eBike_fork*/} {bikes[0].ebike_damper/*bikes.eBike_damper*/}
+                                                    <br/>*/}<br/><b>{t("ebikes.ebike.name")}:</b> {bikes.ebike_name/*bikes.eBike_name*/}
+                                                    <br/><b>{t("ebikes.ebike.engine")}:</b> {bikes.ebike_engine/*bikes.eBike_engine*/}
+                                                    <br/><b>{t("ebikes.ebike.battery")}:</b> {bikes.ebike_battery/*bikes.eBike_battery*/}
+                                                    <br/><b>{t("ebikes.ebike.brakes")}:</b> {bikes.ebike_brake/*bikes.eBike_brake*/}
+                                                    <br/><b>{t("ebikes.ebike.gearbox")}:</b> {bikes.ebike_gear/*bikes.eBike_gear*/}
+                                                    <br/><b>{t("ebikes.ebike.damper")}:</b> {bikes.ebike_fork/*bikes.eBike_fork*/} {bikes[0].ebike_damper/*bikes.eBike_damper*/}
                                                 </p>
                                                 <div class="cart mt-4 align-items-center"> <button class="btn btn-danger text-uppercase mr-2 px-4">{t("ebikes.link")}</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
                                                 <br/>
