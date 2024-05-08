@@ -10,15 +10,15 @@
         "header1": "Öffnungszeiten:",
         "header2": "E-Mail:",
         "header3": "Nachricht:",
-        "time1": "Mo-Sa: Geschlossen",
-        "time2": "Sonntag: Geschlossen",
+        "time1": "Di-Sa: 9:00-12:30 Uhr und 14:00-18:30 Uhr",
+        "time2": "So: 9:00-12:00 Uhr",
         "location": "Hinterlände 5, 39037 Vals, Südtirol (IT)",
         "sendButton": "Senden",
         "impressum": "Impressum",
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Geschlossen vom 08.04-07.05.2024",
+        "main": "",
         "second": "Direkt an der Talstation Jochtal"
     },
     "mainbody": {

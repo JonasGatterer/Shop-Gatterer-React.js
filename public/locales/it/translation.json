@@ -10,15 +10,15 @@
         "header1": "Orari di apertura:",
         "header2": "E-mail:",
         "header3": "Messaggio:",
-        "time1": "Lunedì-Sabato: Chiuso",
-        "time2": "Domenica: Chiuso",
+        "time1": "Martedi-Sabato: 9:00 - 12:30 e 14:00 - 18:30",
+        "time2": "Domenica: 9:00 - 12:00",
         "location": "Hinterlände 5, 39037 Valles, Alto Adige (IT)",
         "sendButton": "Inviare",
         "impressum": "Impressum",
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Chiuso dal 08.04-07.05.2024",
+        "main": "",
         "second": "Direttamente alla stazione sciistica di Jochtal"
     },
     "mainbody": {
