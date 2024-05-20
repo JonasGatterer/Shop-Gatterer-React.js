@@ -15,7 +15,7 @@ const EBikes = () => {
     const [secondDays, setSecondDays] = useState(0);
     const [resArray, setResArray] = useState([]);
     const expensivePrices = [50, 60, 70, 80, 90]
-    const prices = [35, 49, 92, 127, 159, 188];
+    const prices = [35, 49, 92, 127, 169, 198];
 
     const {t, i18n} = useTranslation();
 
