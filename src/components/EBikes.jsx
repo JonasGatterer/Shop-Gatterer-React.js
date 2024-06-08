@@ -52,14 +52,14 @@ const EBikes = () => {
             }
         }else{
             if(picture !== "front"){
-                setSecondBike(BikeSide3)
+                setThirdBike(BikeSide3)
             }else{
-                setSecondBike(BikeFront3)
+                setThirdBike(BikeFront3)
             }
         }
     }
 
-    const changeFront = (i) => {
+    const retrieveFrontBike = (i) => {
         if(i === 0){
             return BikeFront1
         }else if(i === 1){
@@ -69,13 +69,23 @@ const EBikes = () => {
         }
     }
 
-    const changeSide = (i) => {
+    const retrieveSideBike = (i) => {
         if(i === 0){
             return BikeSide1
         }else if(i === 1){
             return BikeSide2
         }else{
             return BikeSide3
+        }
+    }
+
+    const retrieveMainBike = (i) => {
+        if(i === 0){
+            return firstBike
+        }else if(i === 1){
+            return secondBike
+        }else if(i === 2){
+            return thirdBike
         }
     }
 
@@ -99,8 +109,8 @@ const EBikes = () => {
                                     <div class="row">
                                         <div class="col-md-6 ebike-card">
                                             <div class="images p-3">
-                                                <div class="text-center p-4"> <img id="main-image" src={/*i === 0 ? firstBike : secondBike*/changeFront(i)} alt="E-Bike" width="400" /> </div>
-                                                <div class="thumbnail text-center"> <img onClick={() => changePicture(i, "front")} src={/* i === 0 ? BikeFront1 : BikeFront2*/changeFront(i)} alt="E-Bike side view" width="150"/> <img onClick={() => changePicture(i, "side")} src={/*i === 0 ? BikeSide1 : BikeSide2*/changeSide(i)} alt="E-Bike front view" width="150"/> </div>
+                                                <div class="text-center p-4"> <img id="main-image" src={/*i === 0 ? firstBike : secondBike*/retrieveMainBike(i)} alt="E-Bike" width="400" /> </div>
+                                                <div class="thumbnail text-center"> <img onClick={() => changePicture(i, "front")} src={/* i === 0 ? BikeFront1 : BikeFront2*/retrieveFrontBike(i)} alt="E-Bike side view" width="150"/> <img onClick={() => changePicture(i, "side")} src={/*i === 0 ? BikeSide1 : BikeSide2*/retrieveSideBike(i)} alt="E-Bike front view" width="150"/> </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 ebike-card">
