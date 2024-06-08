@@ -99,7 +99,7 @@ const EBikes = () => {
                                     <div class="row">
                                         <div class="col-md-6 ebike-card">
                                             <div class="images p-3">
-                                                <div class="text-center p-4"> <img id="main-image" src={i === 0 ? firstBike : secondBike} alt="E-Bike" width="400" /> </div>
+                                                <div class="text-center p-4"> <img id="main-image" src={/*i === 0 ? firstBike : secondBike*/changeFront(i)} alt="E-Bike" width="400" /> </div>
                                                 <div class="thumbnail text-center"> <img onClick={() => changePicture(i, "front")} src={/* i === 0 ? BikeFront1 : BikeFront2*/changeFront(i)} alt="E-Bike side view" width="150"/> <img onClick={() => changePicture(i, "side")} src={/*i === 0 ? BikeSide1 : BikeSide2*/changeSide(i)} alt="E-Bike front view" width="150"/> </div>
                                             </div>
                                         </div>
