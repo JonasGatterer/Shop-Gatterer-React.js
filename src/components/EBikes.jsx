@@ -3,14 +3,17 @@ import Footer from './Footer';
 import "./EBikes.css"
 import BikeFront1 from './../images/bikeFront1.png'
 import BikeFront2 from './../images/bikeFront2.png'
+import BikeFront3 from './../images/bikeFront3.png'
 import BikeSide1 from './../images/bikeSide1.png'
 import BikeSide2 from './../images/bikeSide2.png'
+import BikeSide3 from './../images/bikeSide3.png'
 import React, { useState, useEffect } from 'react';
 import {useTranslation} from "react-i18next"
 
 const EBikes = () => {
     const [firstBike, setFirstBike] = useState(BikeFront1);
     const [secondBike, setSecondBike] = useState(BikeFront2);
+    const [thirdBike, setThirdBike] = useState(BikeFront3);
     const [firstDays, setFirstDays] = useState(0);
     const [secondDays, setSecondDays] = useState(0);
     const [resArray, setResArray] = useState([]);
@@ -41,19 +44,45 @@ const EBikes = () => {
             }else{
                 setFirstBike(BikeFront1)
             }
-        }else{
+        }else if(i === 1){
             if(picture !== "front"){
                 setSecondBike(BikeSide2)
             }else{
                 setSecondBike(BikeFront2)
             }
+        }else{
+            if(picture !== "front"){
+                setSecondBike(BikeSide3)
+            }else{
+                setSecondBike(BikeFront3)
+            }
+        }
+    }
+
+    const changeFront = (i) => {
+        if(i === 0){
+            return BikeFront1
+        }else if(i === 1){
+            return BikeFront2
+        }else{
+            return BikeFront3
+        }
+    }
+
+    const changeSide = (i) => {
+        if(i === 0){
+            return BikeSide1
+        }else if(i === 1){
+            return BikeSide2
+        }else{
+            return BikeSide3
         }
     }
 
     //console.log(resArray);
     //const {ebikefeatureid: index, ebike_name: name, ebike_gear: gear, ebike_fork: fork, ebike_engine: engine, ebike_damper: damper, ebike_brake: brake, ebike_battery: battery} = bikes;
     //const dataEbike = '{{"ebikefeatureid": 1, "ebike_name": "CROSS Maverix 27,5 Plus Sportive", "ebike_gear": "SRAM SX Eagle PG-1210", "ebike_fork": "RockShox Recon Boost", "ebike_engine": "Shimano Steps DU-E8000 250W, 70Nm", "ebike_damper": "Solo Air", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8035 504Wh, 36V 14Ah"},{"ebikefeatureid": 2, "ebike_name": "CROSS Quantum 27,5 Plus Sportive", "ebike_gear": "Shimano CS-HG5000", "ebike_fork": "Suntour XCM", "ebike_engine": "Shimano DU-E7000 250W, 60Nm", "ebike_damper": "34 Boost-Lo", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8010 504Wh, 36V 14Ah"}}';
-    const dataEbike = '[{"ebikefeatureid": 1, "ebike_name": "CROSS Maverix 27,5 Plus Sportive", "ebike_gear": "SRAM SX Eagle PG-1210", "ebike_fork": "RockShox Recon Boost", "ebike_engine": "Shimano Steps DU-E8000 250W, 70Nm", "ebike_damper": "Solo Air", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8035 504Wh, 36V 14Ah"},{"ebikefeatureid": 2, "ebike_name": "CROSS Quantum 27,5 Plus Sportive", "ebike_gear": "Shimano CS-HG5000", "ebike_fork": "Suntour XCM", "ebike_engine": "Shimano DU-E7000 250W, 60Nm", "ebike_damper": "34 Boost-Lo", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "Shimano BT-8010 504Wh, 36V 14Ah"}]';
+    const dataEbike = '[{"ebikefeatureid": 1, "ebike_name": "ELAN MANTIS 2", "ebike_gear": "Shimano DEORE M5130 Series Linkglide", "ebike_fork": "RST BLADE 29", 120 mm", "ebike_engine": "Shimano EP6", "ebike_damper": "RST Blade 34", "ebike_brake": "Shimano SLX, BR-MT420", "ebike_battery": "600 Wh"},{"ebikefeatureid": 2, "ebike_name": "CROSS Maverix 27,5 Plus Sportive", "ebike_gear": "SRAM SX Eagle PG-1210", "ebike_fork": "RockShox Recon Boost", "ebike_engine": "Shimano Steps DU-E8000", "ebike_damper": "Solo Air", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "504Wh"},{"ebikefeatureid": 3, "ebike_name": "CROSS Quantum 27,5 Plus Sportive", "ebike_gear": "Shimano CS-HG5000", "ebike_fork": "Suntour XCM", "ebike_engine": "Shimano DU-E7000", "ebike_damper": "34 Boost-Lo", "ebike_brake": "Clarks M2 Hydraulic Brakes", "ebike_battery": "504Wh"}]';
     const newResArray = JSON.parse(dataEbike);
 
     return(
@@ -71,7 +100,7 @@ const EBikes = () => {
                                         <div class="col-md-6 ebike-card">
                                             <div class="images p-3">
                                                 <div class="text-center p-4"> <img id="main-image" src={i === 0 ? firstBike : secondBike} alt="E-Bike" width="400" /> </div>
-                                                <div class="thumbnail text-center"> <img onClick={() => changePicture(i, "front")} src={i === 0 ? BikeFront1 : BikeFront2} alt="E-Bike side view" width="150"/> <img onClick={() => changePicture(i, "side")} src={i === 0 ? BikeSide1 : BikeSide2} alt="E-Bike front view" width="150"/> </div>
+                                                <div class="thumbnail text-center"> <img onClick={() => changePicture(i, "front")} src={/* i === 0 ? BikeFront1 : BikeFront2*/changeFront(i)} alt="E-Bike side view" width="150"/> <img onClick={() => changePicture(i, "side")} src={/*i === 0 ? BikeSide1 : BikeSide2*/changeSide(i)} alt="E-Bike front view" width="150"/> </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 ebike-card">
@@ -79,7 +108,7 @@ const EBikes = () => {
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="d-flex align-items-center"> <i class="fa fa-long-arrow-left"></i> <span class="ml-1"></span> </div> <i class="fa fa-shopping-cart text-muted"></i>
                                                 </div>
-                                                <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">{i === 0 ? t("ebikes.gender1") : t("ebikes.gender2")}</span>
+                                                <div class="mt-4 mb-3"> {/*<span class="text-uppercase text-muted brand">{i === 0 ? t("ebikes.gender1") : t("ebikes.gender2")}</span>*/}
                                                     <h5 class="text-uppercase">E-Mountainbike</h5>
                                                     <div class="price d-flex flex-row align-items-center"> <span class="act-price">{i === 0 ? prices[firstDays] : prices[secondDays]}€</span>
                                                         {/*<div class="ml-2"> <small class="dis-price">{i === 0 ? expensivePrices[firstDays] : expensivePrices[secondDays]}€</small> <span>10% OFF</span> </div>*/}
