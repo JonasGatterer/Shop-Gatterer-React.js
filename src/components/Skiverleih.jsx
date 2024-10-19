@@ -87,22 +87,21 @@ const Skiverleih = () => {
             
             */}
 
+
+
+            {/*
+            PREIS LISTE
+            
             <div class="container fluid">
                 <div class="verleih-middleSection text-center">
-                    <h1>{/*Verleih Preise*/t("skiverleih.header3")}</h1>
-                    {/*<p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke, sodass Sie alles haben, was Sie für die Piste brauchen. </p>*/}
-                    {/*<p>Wir bieten sowohl Preise für Skisets als auch Einzelpreise für unsere hochwertige Ausrüstung. Ein Set enthaltet Skier, Schuhe und Stöcke. Der siebte Tag der Ausleihe ist kostenlos. Die ausgeliehene Ausrüstung können Sie kostenlos in unserem <a href="/#Skidepot">Skidepot</a> lagern.</p>*/}
-                    <p>{t("skiverleih.thirdSec1")}<Link to="/#Skidepot">{t("skiverleih.thirdSec2")}</Link>{/*<a href="/#Skidepot">{t("skiverleih.thirdSec2")}</a>*/}{t("skiverleih.thirdSec3")}</p>
+                    <h1>{t("skiverleih.header3")}</h1>
+                    <p>{t("skiverleih.thirdSec1")}<Link to="/#Skidepot">{t("skiverleih.thirdSec2")}</Link>{t("skiverleih.thirdSec3")}</p>
                 </div>
             </div>
 
             
 
             <div class="container fluid">
-                {/*
-                Setpreise
-                <button type="button" onClick={() => (setOpen(!open))}>hei</button>
-                {open && ( */}
                     <div class='table-responsive'>
                         
                         <table class="table table-hover table-striped">
@@ -211,9 +210,6 @@ const Skiverleih = () => {
                             </tbody>
                         </table>
                     </div>
-                {/*
-                )}
-                */}
 
 
               
@@ -222,10 +218,6 @@ const Skiverleih = () => {
             <br/>
             
             <div class="container fluid">
-                {/*
-                Einzelpreise
-                <button type="button" onClick={() => (setOpen2(!open2))}>hei</button>
-                {open2 && ( */}
                     <div class="table-responsive">
 
                         <table class="table table-hover table-striped">
@@ -343,14 +335,13 @@ const Skiverleih = () => {
                             </tbody>
                         </table>
                     </div>
-                {/*
-                )}
-                */}
 
             <br/><br/>
 
               
             </div> 
+            */}
+
             <Footer/>
         </div>
     )
