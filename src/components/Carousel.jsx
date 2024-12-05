@@ -30,7 +30,7 @@ const CarouselComponent = () => {
             {/*
             <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" className="shop-link">
                 ⛷️ Reservieren Sie Ihre Ausrüstung jetzt
-            </a> */}{/*Reserve your equipment now*/}{/*Click here for reservation*/}
+            </a>*/} {/*Reserve your equipment now*/}{/*Click here for reservation*/}
         </div>
     );
 };
