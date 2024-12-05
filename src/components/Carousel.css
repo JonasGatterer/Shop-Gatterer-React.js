@@ -20,11 +20,11 @@
     font-family: Syne,sans-serif;
     background-color: white;
     color: black;
-    padding: 0.7rem;
-    font-size: 2.3rem;
+    padding: 0.8rem;
+    font-size: 1.7rem;
     font-weight:900;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -35,13 +35,42 @@
     color: black;
     padding: 0.7rem;
     font-size: 2rem;*/
-    color: white;
+    color: #ffffff;
     font-size: 1.5rem;
     /*font-weight:800;*/
     position: absolute;
-    top: 75%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9); /* Stronger shadow effect */
+    font-weight: 900;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.shop-link {
+    position: absolute;
+    /*bottom: 75px;
+    left: 50px;*/
+    z-index: 20; /* Ensure it appears above the carousel */
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 10px 20px; /* Space around the text */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from the link */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    width: 225px; /* Set the desired width */
+    text-align: center; /* Center-align the text inside the button */
+    top: 83%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-link:hover {
+    background-color: rgba(0, 0, 0, 1); /* Darker background on hover */
+    color: #ffd700; /* Gold color for hover effect */
 }
 
 #Home{
@@ -50,27 +79,28 @@
 
 @media (max-width: 1350px) {
     .carousel-overlayText{
-        font-size: 1.5rem;
-        top: 65%;
+        font-size: 1.2rem;
+        top: 78%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
 
     .carousel-overlayText-second{
-        top: 77%;
+        top: 88%;
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 750px) {
     .carousel-overlayText{
+        top: 59%;
         font-size: 1.3rem;
     }
 
     .carousel-overlayText-second{
-        top: 84%;
+        top: 65%;
         text-align: center;
         font-size: 1rem;
     }
@@ -82,21 +112,32 @@
     #carouselSlides{
         margin-top: -10vh;
     }
+
+    .shop-link{
+        left: 50%;
+        top: 72%
+    }
 }
 
 @media (max-width: 600px) {
     .carousel-overlayText{
-        top: 70%;
+        top: 58%;
         font-size: 1rem;
     }
 
     .carousel-overlayText-second{
-        top: 87%;
+        top: 65%;
         text-align: center;
+        font-size: 0.85rem;
     }
 
     .carousel-inner img{
         height: 70vh;
+    }
+
+    .shop-link{
+        left: 50%;
+        top: 72%
     }
 }
 
