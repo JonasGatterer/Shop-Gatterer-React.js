@@ -50,9 +50,11 @@ const Impressum = () => {
                 </b>
                 </p>
                 <p>
-                    First ebike image: <a href="https://www.freepik.com/free-photo/senior-woman-electric-mountainbike_14704278.htm#query=ebike%20mountain&position=5&from_view=search&track=ais#position=5&query=ebike%20mountain">Image by wirestock</a> on Freepik
+                    First ebike image: <a href="https://www.freepik.com/free-photo/senior-woman-electric-mountainbike_14704278.htm#query=ebike%20mountain&position=5&from_view=search&track=ais#position=5&query=ebike%20mountain" target="_blank" rel="noopener noreferrer">Image by wirestock</a> on Freepik
                     <br/>
-                    Second ebike image: <a href="https://www.freepik.com/free-photo/senior-woman-electric-mountain-bike_17120459.htm#query=ebike%20mountain&position=22&from_view=search&track=ais">Image by wirestock</a> on Freepik
+                    Second ebike image: <a href="https://www.freepik.com/free-photo/senior-woman-electric-mountain-bike_17120459.htm#query=ebike%20mountain&position=22&from_view=search&track=ais" target="_blank" rel="noopener noreferrer">Image by wirestock</a> on Freepik
+                    <br/>
+                    Online booking skiing image: <a href="https://unsplash.com/de/fotos/mann-eisski-auf-der-schanze-pmfJcN7RGiw" target="_blank" rel="noopener noreferrer">Image by Maarten Duineveld</a> on Unsplash
                     <br/>
                 </p>
                 <p>

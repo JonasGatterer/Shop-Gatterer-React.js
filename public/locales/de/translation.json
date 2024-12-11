@@ -18,8 +18,9 @@
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Highclass rent and services",
-        "second": "Direkt an der Talstation Jochtal"
+        "main": "Highclass rent and service",
+        "second": "Direkt an der Talstation Jochtal",
+        "onlineRes": "Online -Reservierung"
     },
     "mainbody": {
         "cardHeader1": "Winterausrüstung",

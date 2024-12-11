@@ -18,8 +18,9 @@
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Highclass rent and services",
-        "second": "Direttamente alla stazione sciistica di Jochtal"
+        "main": "Highclass rent and service",
+        "second": "Direttamente alla stazione sciistica di Jochtal",
+        "onlineRes": "Prenotazione online"
     },
     "mainbody": {
         "cardHeader1": "Noleggio sci",

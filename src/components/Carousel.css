@@ -52,29 +52,46 @@
     position: absolute;
     /*bottom: 75px;
     left: 50px;*/
-    z-index: 20; /* Ensure it appears above the carousel */
-    color: white; /* Text color */
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    padding: 10px 20px; /* Space around the text */
-    border-radius: 5px; /* Rounded corners for the button */
-    font-size: 1rem;
+    z-index: 20;
+    color: white;
+    background-color: #AD2221 !important;
+    /*background-color: rgba(0, 0, 0, 0.85); /*background-color: #FF4500;*/
+    padding: 10px 20px;
+    border-radius: 10px; /*border-radius: 5px;*/
+    font-size: 1.35rem; /*1rem*/
     font-weight: bold;
-    text-decoration: none; /* Remove underline from the link */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
-    width: 225px; /* Set the desired width */
-    text-align: center; /* Center-align the text inside the button */
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease; /*transition: background-color 0.3s ease;*/
+    width: 200px; /*225px*/
+    text-align: center;
     top: 83%;
     left: 14%;
     transform: translate(-50%, -50%);
+
+    /*Black shadow*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);*/
+
+    /*Glowing yellow shadow - Glowing effect*/
+    /*box-shadow: 0 0 10px rgba(255, 255, 255, 0.852), 0 0 20px rgba(255, 68, 0, 0.541);*/
+    
+    
 }
 
 .shop-link:hover {
-    background-color: rgba(0, 0, 0, 1); /* Darker background on hover */
-    color: #ffd700; /* Gold color for hover effect */
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffd700;
 }
 
 #Home{
     scroll-margin-top: 80px;
+}
+
+@media (min-width: 1351px) {
+    .shop-link{
+        font-size: 1.75rem;
+        width: 260px;
+        top: 80%;
+    }
 }
 
 @media (max-width: 1350px) {
@@ -103,6 +120,7 @@
         top: 65%;
         text-align: center;
         font-size: 1rem;
+        display: none; /*ausgeblendet!!!*/
     }
 
     .carousel-inner img{
@@ -129,6 +147,7 @@
         top: 87%;
         text-align: center;
         font-size: 0.85rem;
+        display: none; /*ausgeblendet!!!*/
     }
 
     .carousel-inner img{
@@ -137,7 +156,8 @@
 
     .shop-link{
         left: 50%;
-        top: 75%
+        top: 89%;
+        font-size: 1.0rem;
     }
 }
 

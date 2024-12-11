@@ -18,8 +18,9 @@
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Highclass rent and services",
-        "second": "Directly at the Jochtal valley station"
+        "main": "Highclass rent and service",
+        "second": "Directly at the Jochtal valley station",
+        "onlineRes": "Online reservation"
     },
     "mainbody": {
         "cardHeader1": "Winter equipment",
