@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 
-    const {t, i18n} = useTranslation();
+    const {t} = useTranslation();
     
     return(
         <div class="container-fluid bg-light" id="kontakte">
@@ -30,7 +30,7 @@ const Footer = () => {
                         <p><a id="email" href="mailto:info@skiverleih-gatterer.com"><span class="material-icons">mail</span> info@skiverleih-gatterer.com</a></p>
                         <div id="icons">
                             <span id="fbSpan"><a href="https://www.facebook.com/pages/category/Ski---Snowboard-Shop/Skiverleih-Gatterer-105882358059523/"><img id="fbIcon" src={FacebookIcon} alt="facebook link"/></a></span>
-                            {/*<span id="instaSpan"><a href="https://www.instagram.com/"><img id="instaIcon" src={InstagramIcon} alt="instagram link"/></a></span>*/}
+                            <span id="instaSpan"><a href="https://www.instagram.com/shop_gatterer/"><img id="instaIcon" src={InstagramIcon} alt="instagram link"/></a></span>
                             <span id="gitSpan"><a href="https://github.com/JonasGatterer/Shop-Gatterer-React.js"><img id="gitIcon" src={GithubIcon} alt="github link"/></a></span>
                         </div>
                     </div>
