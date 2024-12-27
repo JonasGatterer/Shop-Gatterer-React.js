@@ -52,21 +52,21 @@ const Header = () => {
                         </li>
                         */}
                         <li class="nav-item dropstart">
-                            <button class="no-button nav-link dropdown-toggle" id="navbarScrollingDropdown" data-bs-toggle="dropdown" aria-expanded="false">{/*role="button"*/}
+                            <button class="no-button nav-link dropdown-toggle" id="navbarScrollingDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class="material-icons">translate</span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li>{/*<a class="dropdown-item">*/}{/*id="languageButton"*/}
+                                <li>
                                     <button class="dropdown-item"  onClick={() => changeLanguage("de")}>Deutsch</button>
-                                {/*</a>*/}</li>
+                                </li>
                                 <li><hr class="dropdown-divider"/></li>
-                                <li>{/*<a class="dropdown-item">*/}
+                                <li>
                                     <button class="dropdown-item" onClick={() => changeLanguage("it")}>Italiano</button>
-                                {/*</a>*/}</li>
+                                </li>
                                 <li><hr class="dropdown-divider"/></li>
-                                <li>{/*<a class="dropdown-item">*/}
+                                <li>
                                     <button class="dropdown-item" onClick={() => changeLanguage("en")}>English</button>
-                                {/*</a>*/}</li>
+                                </li>
                             </ul>
                         </li>
                         {/*
