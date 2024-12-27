@@ -16,11 +16,11 @@ const EBikes = () => {
     const [thirdBike, setThirdBike] = useState(BikeFront3);
     const [firstDays, setFirstDays] = useState(0);
     const [secondDays, setSecondDays] = useState(0);
-    const [resArray, setResArray] = useState([]);
-    const expensivePrices = [50, 60, 70, 80, 90]
+    //const [resArray, setResArray] = useState([]);
+    //const expensivePrices = [50, 60, 70, 80, 90]
     const prices = [35, 49, 92, 127, 169, 198];
 
-    const {t, i18n} = useTranslation();
+    const {t,} = useTranslation();
 
     const getBike = async() => {
         try {

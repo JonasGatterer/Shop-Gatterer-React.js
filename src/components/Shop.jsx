@@ -9,7 +9,7 @@ import {useTranslation} from "react-i18next"
 const Shop = () => {
     //const pictures = [Picture1, Picture2, Picture3, Picture4, Picture5, Picture6, Picture7, Picture8, Picture9, Picture10]
 
-    const {t, i18n} = useTranslation();
+    const {t,} = useTranslation();
 
     return(
         <div class="bg-white">

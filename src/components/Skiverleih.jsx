@@ -20,14 +20,14 @@ import "./Skiverleih.css"
 import Test1 from './../images/test1.jpg'
 import Test2 from './../images/test2.jpg'
 import {useTranslation} from "react-i18next"
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Skiverleih = () => {
     /*
     const [open, setOpen] = React.useState(true);
     const [open2, setOpen2] = React.useState(true);*/
 
-    const {t, i18n} = useTranslation();
+    const {t,} = useTranslation();
 
     useEffect(() => {
         Aos.init({duration: 1000});

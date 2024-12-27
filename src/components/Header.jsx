@@ -52,15 +52,21 @@ const Header = () => {
                         </li>
                         */}
                         <li class="nav-item dropstart">
-                            <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="no-button nav-link dropdown-toggle" id="navbarScrollingDropdown" data-bs-toggle="dropdown" aria-expanded="false">{/*role="button"*/}
                                 <span class="material-icons">translate</span>
-                            </a>
+                            </button>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item"><button id="languageButton" onClick={() => changeLanguage("de")}>Deutsch</button></a></li>
+                                <li>{/*<a class="dropdown-item">*/}{/*id="languageButton"*/}
+                                    <button class="dropdown-item"  onClick={() => changeLanguage("de")}>Deutsch</button>
+                                {/*</a>*/}</li>
                                 <li><hr class="dropdown-divider"/></li>
-                                <li><a class="dropdown-item"><button id="languageButton" onClick={() => changeLanguage("it")}>Italiano</button></a></li>
+                                <li>{/*<a class="dropdown-item">*/}
+                                    <button class="dropdown-item" onClick={() => changeLanguage("it")}>Italiano</button>
+                                {/*</a>*/}</li>
                                 <li><hr class="dropdown-divider"/></li>
-                                <li><a class="dropdown-item"><button id="languageButton" onClick={() => changeLanguage("en")}>English</button></a></li>
+                                <li>{/*<a class="dropdown-item">*/}
+                                    <button class="dropdown-item" onClick={() => changeLanguage("en")}>English</button>
+                                {/*</a>*/}</li>
                             </ul>
                         </li>
                         {/*

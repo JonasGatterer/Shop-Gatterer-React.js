@@ -26,3 +26,10 @@
 	cursor: pointer;
 	outline: inherit;
 }
+
+.no-button{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

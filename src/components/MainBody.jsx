@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 const MainBody = () => {
 
-    const {t, i18n} = useTranslation();
+    const {t,} = useTranslation();
 
     useEffect(() => {
         Aos.init({duration: 1500});
@@ -198,11 +198,11 @@ const MainBody = () => {
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                         <p>{/*Unser Skidepot ist der perfekte Ort, um Ihre Skiausrüstung vor und nach einem Tag auf der Piste zu lagern!*/t("depotDiv.text1")}</p>
-                        <div class="specialTextDiv">
+                        {/*<div class="specialTextDiv">
                             <p>
-                                <span class="specialText">{/*Das Skidepot können Sie kostenlos benutzen, wenn Sie die Ausrüstung bei uns ausleihen!*/t("depotDiv.text2")}</span>
+                                <span class="specialText">{t("depotDiv.text2")}</span>
                             </p>
-                        </div>
+                        </div>*/}
                         <p>{/*Wir bieten Ihnen an unserer Verleihstation beheizte Schließfächer an, in denen Sie Ihre persönlichen Gegenstände während des Skifahrens und Ihre Ski- oder Snowboardausrüstung über Nacht unterbringen können. In unserer Aufbewahrungseinrichtung sind Ihre Gegenstände und Ausrüstung sicher und geschützt. Sie können das Skidepot vor Ort buchen.*/t("depotDiv.text3")}</p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center" id="depotImgContainer">
