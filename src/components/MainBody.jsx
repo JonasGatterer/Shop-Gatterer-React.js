@@ -6,9 +6,9 @@ import Skiing from './../images/skiing.jpg'
 import EbikeD from './../images/ebike-driving.jpg'
 import Shop from './../images/shop.jpg'
 import Service from './../images/service.jpg'
-//import Skidepot from './../images/skidepot.jpg'
+import Skidepot from './../images/skidepot.jpg'
 //import Skidepot2 from './../images/skidepot2.jpg'
-import Skidepot3 from './../images/skidepot3.jpg.png'
+//import Skidepot3 from './../images/skidepot3.jpg.png'
 import {useTranslation} from "react-i18next"
 import { Link } from "react-router-dom";
 
@@ -188,29 +188,40 @@ const MainBody = () => {
                 </div>
             </div>*/}
 
-            {/*Skidepot*/}
+            {/*Skidepot alt
             <div class="container-fluid" id="depotContainer">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-                        {/*Ein sicherer Ort nahe der Lifte*/}
-                        {/*<span>Ski und Snowboard</span>*/}
-                        <h2 class="depotHeader">{/*Skidepot*/t("header.header4")}</h2>
+                        <h2 class="depotHeader">{t("header.header4")}</h2>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                        <p>{/*Unser Skidepot ist der perfekte Ort, um Ihre Skiausrüstung vor und nach einem Tag auf der Piste zu lagern!*/t("depotDiv.text1")}</p>
-                        {/*<div class="specialTextDiv">
-                            <p>
-                                <span class="specialText">{t("depotDiv.text2")}</span>
-                            </p>
-                        </div>*/}
-                        <p>{/*Wir bieten Ihnen an unserer Verleihstation beheizte Schließfächer an, in denen Sie Ihre persönlichen Gegenstände während des Skifahrens und Ihre Ski- oder Snowboardausrüstung über Nacht unterbringen können. In unserer Aufbewahrungseinrichtung sind Ihre Gegenstände und Ausrüstung sicher und geschützt. Sie können das Skidepot vor Ort buchen.*/t("depotDiv.text3")}</p>
+                        <p></p>
+                        <p></p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center" id="depotImgContainer">
                         <img src={Skidepot3} alt="skidepot" id="imgSkidepot"/>
-                        {/*<img src={Skidepot} alt="skidepot" id="imgSkidepot"/>*/}
+                    </div>
+                </div>
+            </div>*/}
+
+            {/*Skidepot*/}
+            <div class="container-fluid" id="serviceContainer">
+                <div class="row border rounded shadow-lg p-3 mb-5 rounded" id="serviceContainter">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="serviceText">
+                        <h2 class="depotHeader">{/*Skidepot*/t("header.header4")}</h2>
+                        <p>
+                            {t("depotDiv.text1")}
+                            <br/><br/>
+                            {t("depotDiv.text3")}
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
+                        {/*<img src={Service} alt="skiservice" class="rounded" id="serviceImg"/>{/*<!--height: 45vh; width: 90vw;-->*/} 
+                        <img src={Skidepot} alt="skidepot" id="imgSkidepot"/>
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

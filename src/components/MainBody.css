@@ -32,6 +32,10 @@
     max-height: 250px;
 }
 
+#skiingCardImg{
+    height: 230px;
+}
+
 #serviceContainer{
     background-color: white;
     /*margin-top: 5vh;*/

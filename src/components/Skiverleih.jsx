@@ -61,8 +61,8 @@ const Skiverleih = () => {
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 verleih-secondText">
                         <h2>{/*1A Equipment in Vals*/t("skiverleih.header2")}</h2>
-                        <p>{t("skiverleih.secondSec1")}{/*Wir bieten eine große Auswahl an Skiern und Schuhen von einigen der renommiertesten Marken in der Branche. Unser Ziel ist es, unsere Kunden mit hochwertiger Ausrüstung zu versorgen, damit sie die Pisten in vollen Zügen genießen können.*/}
-                            <br/><br/>
+                        <p>{/*{t("skiverleih.secondSec1")}*/}{/*Wir bieten eine große Auswahl an Skiern und Schuhen von einigen der renommiertesten Marken in der Branche. Unser Ziel ist es, unsere Kunden mit hochwertiger Ausrüstung zu versorgen, damit sie die Pisten in vollen Zügen genießen können.*/}
+                            {/*<br/><br/>*/}
                             {t("skiverleih.secondSec2")}{/*Wir bieten eine Reihe von Skiern der beiden Marken Elan und Völkl an. Beide Marken können auf eine lange Tradition in der Herstellung von qualitativ hochwertigen Skiern zurückblicken, die für eine Vielzahl von Bedingungen ausgelegt sind.*/}
                             <br/><br/>
                             {t("skiverleih.secondSec3")}{/*Zusätzlich zu unserer Auswahl an Skiern bieten wir auch eine Reihe von Schuhen von Dalbello und Fischer an.*/}</p>
