@@ -141,6 +141,44 @@ const MainBody = () => {
             -->
             */}
 
+            {/*Gruppenverleih*/}
+            <div class="container-fluid" id="serviceContainer">
+                <div class="row border rounded shadow-lg p-3 mb-5 rounded" id="serviceContainter">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="serviceText">
+                        <h2 class="depotHeader">{/*Skidepot*/t("gruppenDiv.header1")}</h2>
+                        <p>
+                            {t("gruppenDiv.text1")}
+                            <br/><br/>
+                            {t("gruppenDiv.text2")}
+                            <br/>
+                            {t("gruppenDiv.text3")}
+                            <br/>
+                            {t("gruppenDiv.text4")}
+                            <br/>
+                            {t("gruppenDiv.text5")}
+                            <br/>
+                            {t("gruppenDiv.text6")}
+                            <br/><br/>
+                            {t("gruppenDiv.text7")}
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
+                        {/*<img src={Service} alt="skiservice" class="rounded" id="serviceImg"/>{/*<!--height: 45vh; width: 90vw;-->*/} 
+                        <img src={Skidepot} alt="skidepot" id="imgSkidepot"/>
+                    </div>
+                </div>
+            </div>            
+
+
+            {/*Vertical Line*/}
+            <div class="container-fluid" id="horizontalLine">
+                <div class="container-fluid text-center">
+                    <div class="jumbotron">
+                        <hr class="my-5" id="Service"/>
+                    </div>
+                </div>
+            </div>            
+
             {/*Service*/}
             <div class="container-fluid" id="serviceContainer">
                 <div class="row border rounded shadow-lg p-3 mb-5 rounded" id="serviceContainter">

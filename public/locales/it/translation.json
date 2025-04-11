@@ -18,7 +18,8 @@
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Highclass rent and service",
+        "main": "Chiuso dal 20.04 al 29.05",
+        "mainOld": "Highclass rent and service",
         "second": "Direttamente alla stazione sciistica di Jochtal",
         "onlineRes": "Prenotazione online"
     },
@@ -32,6 +33,16 @@
         "card1": "Offriamo un'ampia scelta di attrezzature da sci e snowboard di alta qualità per il noleggio e la vendita.",
         "card2": "Abbiamo una gamma di biciclette elettriche in offerta, tutte dotate della tecnologia più avanzata e progettate per garantire il massimo del comfort e delle prestazioni.",
         "card3": "Oltre al noleggio di sci ed e-bike, abbiamo anche un negozio di souvenir dove potrete trovare il souvenir perfetto o il regalo per i vostri cari. Offriamo una vasta gamma di articoli unici, fatti a mano e regionali."
+    },
+    "gruppenDiv": {
+        "header1": "Noleggio per gruppi",
+        "text1": "State organizzando un viaggio di gruppo, un campeggio sciistico o una gita scolastica? Allora siete nel posto giusto! Per i gruppi, offriamo interessanti condizioni speciali su l'attrezzatura a noleggio, da sci e snowboard a caschi e scarponi. Per una maggiore comodità, il vostro gruppo avrà un proprio deposito sci in loco.",
+        "text2": "Vantaggi:",
+        "text3": "• Prezzi speciali per gruppi",
+        "text4": "• Processo rapido e senza intoppi",
+        "text5": "• Attrezzatura per ogni livello",
+        "text6": "• Deposito sci personale",
+        "text7": "Richiedete ora e assicuratevi uno sconto per gruppi! Saremo lieti di fornirvi un'offerta personalizzata."
     },
     "serviceDiv": {
         "text1": "Abbiamo una nostra officina sciistica dove offriamo una serie di servizi per mantenere la vostra attrezzatura in ottime condizioni.",

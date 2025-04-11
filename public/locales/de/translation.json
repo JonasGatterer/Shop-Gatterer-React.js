@@ -18,7 +18,8 @@
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Highclass rent and service",
+        "main": "Geschlossen vom 20.04 bis 29.05",
+        "mainOld": "Highclass rent and service",
         "second": "Direkt an der Talstation Jochtal",
         "onlineRes": "Online -Reservierung"
     },
@@ -32,6 +33,16 @@
         "card1": "Wir bieten eine große Auswahl an hochwertiger Ski- und Snowboardausrüstung zum Verleih und Verkauf.",
         "card2": "Wir haben eine Reihe von Elektrofahrrädern im Angebot, die alle mit der neuesten Technologie ausgestattet und auf maximalen Komfort und Leistung ausgelegt sind.",
         "card3": "Neben unserem Ski- und E-Bike-Verleih haben wir auch einen Geschenkeladen, in dem Sie das perfekte Souvenir oder Geschenk für Ihre Liebsten finden können. Wir bieten eine breite Palette einzigartiger, handgefertigter und regionaler Artikel an."
+    },
+    "gruppenDiv": {
+        "header1": "Gruppenverleih",
+        "text1": "Ihr plant eine Gruppenreise, ein Skilager oder eine Klassenfahrt? Dann seid ihr bei uns genau richtig! Für Gruppen bieten wir attraktive Sonderkonditionen auf Verleihausrüstung, von Skiern und Snowboards bis hin zu Helmen und Schuhen. Für zusätzlichen Komfort steht eurer Gruppe ein eigenes Skidepot bei uns vor Ort zur Verfügung.",
+        "text2": "Vorteile:",
+        "text3": "• Spezialpreise für Gruppen",
+        "text4": "• Schnelle und reibungslose Abwicklung",
+        "text5": "• Ausrüstung für jedes Level",
+        "text6": "• Eigenes Skidepot",
+        "text7": "Jetzt anfragen und Gruppenrabatt sichern! Schreibt uns einfach oder ruft an – wir erstellen euch gerne ein individuelles Angebot."
     },
     "serviceDiv": {
         "text1": "Wir verfügen über eine eigene Skiwerkstatt, in der wir eine Reihe von Skiservices anbieten, um Ihre Ausrüstung in bestem Zustand zu halten.",

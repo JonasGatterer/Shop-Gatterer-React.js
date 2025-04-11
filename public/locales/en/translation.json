@@ -18,7 +18,8 @@
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "Highclass rent and service",
+        "main": "Closed from 20.04 to 29.05",
+        "mainOld": "Highclass rent and service",
         "second": "Directly at the Jochtal valley station",
         "onlineRes": "Online reservation"
     },
@@ -32,6 +33,16 @@
         "card1": "We offer a large selection of high-quality ski and snowboard equipment for rent and sale.",
         "card2": "We have a range of electric bikes on offer, all equipped with the latest technology and designed for maximum comfort and performance.",
         "card3": "In addition to our ski and e-bike rental, we also have a gift store where you can find the perfect souvenir or gift for your loved ones. We offer a wide range of unique, handmade and regional items."
+    },
+    "gruppenDiv": {
+        "header1": "Group rental",
+        "text1": "Are you planning a group trip, a ski camp or a school trip? Then you've come to the right place! For groups, we offer attractive special conditions on rental equipment, from skis and snowboards to helmets and boots. For added convenience, your group will have its own ski depot on site.",
+        "text2": "Advantages:",
+        "text3": "• Special prices for groups",
+        "text4": "• Fast and smooth processing",
+        "text5": "• Equipment for every level",
+        "text6": "• Your own ski depot",
+        "text7": "Request now and secure a group discount! We will be happy to provide you with a customised offer."
     },
     "serviceDiv": {
         "text1": "We have our own ski workshop where we offer a range of ski services to keep your equipment in top condition.",
