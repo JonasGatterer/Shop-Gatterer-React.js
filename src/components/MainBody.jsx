@@ -149,7 +149,7 @@ const MainBody = () => {
                         <p>
                             {t("gruppenDiv.text1")}
                             <br/><br/>
-                            {t("gruppenDiv.text2")}
+                            <b>{t("gruppenDiv.text2")}</b>
                             <br/>
                             {t("gruppenDiv.text3")}
                             <br/>
