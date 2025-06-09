@@ -57,11 +57,11 @@ const MainBody = () => {
                             <div class="card-text"><p>{/*Möchten Sie die Natur auf zwei Rädern erkunden? Unser E-Bike-Verleih ist die perfekte Möglichkeit dazu. Wir haben eine Reihe von Elektrofahrrädern im Angebot, die alle mit der neuesten Technologie ausgestattet und auf maximalen Komfort und Leistung ausgelegt sind.*/}{t("mainbody.card2")}</p></div>
                                                     {/*Ganz gleich, ob Sie die nähere Umgebung erkunden oder ein anspruchsvolleres Terrain in Angriff nehmen möchten, unsere E-Bikes bringen Sie ans Ziel. Das Verleihverfahren ist schnell und einfach, und wir stehen Ihnen jederzeit mit Tipps und Ratschlägen zu den besten Routen zur Seite.*/}
                             <div>{/*<a href="/e-bikes" class="btn btn-primary">Zum E-Bike-Verleih{t("mainbody.cardLink2")}</a>*/}
-                                <Link to="/e-bikes">
+                                {/*<Link to="/e-bikes">
                                     <button type="button" class="btn btn-primary">
                                         {t("mainbody.cardLink2")}
                                     </button>
-                                </Link>
+                                </Link>*/}
                             </div>
                         </div>
                     </div>
