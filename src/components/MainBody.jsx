@@ -7,6 +7,7 @@ import EbikeD from './../images/ebike-driving.jpg'
 import Shop from './../images/shop.jpg'
 import Service from './../images/service.jpg'
 import Skidepot from './../images/skidepot.jpg'
+import GroupSkiing from './../images/group_skiing.jpg'
 //import Skidepot2 from './../images/skidepot2.jpg'
 //import Skidepot3 from './../images/skidepot3.jpg.png'
 import {useTranslation} from "react-i18next"
@@ -164,7 +165,7 @@ const MainBody = () => {
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
                         {/*<img src={Service} alt="skiservice" class="rounded" id="serviceImg"/>{/*<!--height: 45vh; width: 90vw;-->*/} 
-                        <img src={Skidepot} alt="skidepot" id="imgSkidepot"/>
+                        <img src={GroupSkiing} alt="skidepot" id="imgSkidepot"/>
                     </div>
                 </div>
             </div>            

@@ -56,6 +56,8 @@ const Impressum = () => {
                     <br/>
                     Online booking skiing image: <a href="https://unsplash.com/de/fotos/mann-eisski-auf-der-schanze-pmfJcN7RGiw" target="_blank" rel="noopener noreferrer">Image by Maarten Duineveld</a> on Unsplash
                     <br/>
+                    Ski group image designed by <a href="https://www.freepik.com/free-photo/celebrating-skiers-standing-snow-covered-mountain_11230475.htm#fromView=search&page=1&position=2&uuid=690edfa2-0c1b-4abd-9d57-b6e330a85a02&query=skiing+group" target="_blank" rel="noopener noreferrer">Freepik</a>
+                    <br/>
                 </p>
                 <p>
                 <b>
