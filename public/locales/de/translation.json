@@ -10,7 +10,7 @@
         "header1": "Öffnungszeiten:",
         "header2": "E-Mail:",
         "header3": "Nachricht:",
-        "time1": "Mo-Sa: 9:00-12:30 Uhr und 13:30-18:00 Uhr",
+        "time1": "Mo-Sa: Geschlossen",
         "time2": "So: Geschlossen",
         "location": "Hinterlände 5, 39037 Vals, Südtirol (IT)",
         "sendButton": "Senden",
@@ -18,7 +18,7 @@
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "E-Bikes, Accessoires & Outdoor-Bekleidung",
+        "main": "Ski-Ausrüstung, Accessoires & Outdoor-Bekleidung",
         "mainOld": "Highclass rent and service",
         "second": "Direkt an der Talstation Jochtal",
         "onlineRes": "Online -Reservierung"

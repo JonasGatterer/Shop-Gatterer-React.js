@@ -10,7 +10,7 @@
         "header1": "Orari di apertura:",
         "header2": "E-mail:",
         "header3": "Messaggio:",
-        "time1": "Lunedì-Sabato: 9:00 - 12:30 e 13:30 - 18:00",
+        "time1": "Lunedì-Sabato: Chiuso",
         "time2": "Domenica: Chiuso",
         "location": "Hinterlände 5, 39037 Valles, Alto Adige (IT)",
         "sendButton": "Inviare",
@@ -18,7 +18,7 @@
         "privacy": "Privacy"
     },
     "carousel":{
-        "main": "E-bike, Accessori e Abbigliamento Outdoor",
+        "main": "Attrezzatura da Sci, Accessori e Abbigliamento Outdoor",
         "mainOld": "Highclass rent and service",
         "second": "Direttamente alla stazione sciistica di Jochtal",
         "onlineRes": "Prenotazione online"

@@ -29,7 +29,7 @@ const CarouselComponent = () => {
             </div>
             {/* */}
             <a href="https://rmxob.shop/Main.aspx?shopid=09f6be68-1eba-4948-b460-d901d9c2b251&shopmode=0" target="_blank" rel="noopener noreferrer" className="shop-link">
-                🚴 {t("carousel.onlineRes")}
+                ⛷️ {t("carousel.onlineRes")}
             </a> 
             {/*Reservieren Sie Ihre Ausrüstung hier*/}
             {/*Reservieren Sie Ihre Ausrüstung jetzt*/}{/*Reservieren Sie Ihre Ausrüstung online*/}
